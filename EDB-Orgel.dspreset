@@ -190,16 +190,16 @@
       <!-- Output -->
       <button x="544" y="158" width="48" height="16" style="image" value="0">
         <state name="Direct" mainImage="Resources/button-di.png" hoverImage="Resources/button-di_hover.png" clickImage="Resources/button-spk_hover.png">
-          <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="false" />
-          <binding type="effect" level="instrument" position="1" parameter="FX_MIX" translation="fixed_value" translationValue="0" />
-          <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="false" />
-          <binding type="effect" level="instrument" effectIndex="0" parameter="LEVEL" translation="fixed_value" translationValue="0" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="fixed_value" translationValue="0" />
+          <binding type="effect" level="instrument" effectIndex="3" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="effect" level="instrument" effectIndex="3" parameter="LEVEL" translation="fixed_value" translationValue="0" />
         </state>
         <state name="Speaker" mainImage="Resources/button-spk.png" hoverImage="Resources/button-spk_hover.png" clickImage="Resources/button-di_hover.png">
-          <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
-          <binding type="effect" level="instrument" position="1" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
-          <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="true" />
-          <binding type="effect" level="instrument" effectIndex="0" parameter="LEVEL" translation="fixed_value" translationValue="8" />
+          <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
+          <binding type="effect" level="instrument" effectIndex="3" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="3" parameter="LEVEL" translation="fixed_value" translationValue="8" />
         </state>
       </button>
 
@@ -880,6 +880,68 @@
           <binding type="general" level="group" position="35" parameter="ENABLED" translation="fixed_value" translationValue="true" />
         </state>
       </button>
+
+      <!-- Filter -->
+      <button x="544" y="126" width="48" height="16" style="image" value="0">
+        <state name="Off" mainImage="Resources/button-off.png" hoverImage="Resources/button-off_hover.png" clickImage="Resources/button-lpf_hover.png">
+          <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="effect" level="instrument" position="0" parameter="FX_MIX" translation="fixed_value" translationValue="0" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="LEVEL" translation="fixed_value" translationValue="3" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="LEVEL" translation="fixed_value" translationValue="1" />
+        </state>
+       
+        <state name="LPF" mainImage="Resources/button-lpf.png" hoverImage="Resources/button-lpf_hover.png" clickImage="Resources/button-bpf_hover.png">
+          <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" position="0" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
+          <binding type="effect" level="instrument" effectIndex="0" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/LPF.wav" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="LEVEL" translation="fixed_value" translationValue="3" />
+        </state>
+        <state name="BPF" mainImage="Resources/button-bpf.png" hoverImage="Resources/button-bpf_hover.png" clickImage="Resources/button-l-b_hover.png">
+          <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" position="0" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
+          <binding type="effect" level="instrument" effectIndex="0" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/BPF.wav" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="LEVEL" translation="fixed_value" translationValue="3" />
+        </state>
+        <state name="L/B" mainImage="Resources/button-l-b.png" hoverImage="Resources/button-l-b_hover.png" clickImage="Resources/button-hpf_hover.png">
+          <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" position="0" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
+          <binding type="effect" level="instrument" effectIndex="0" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/L-B.wav" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="LEVEL" translation="fixed_value" translationValue="4" />
+        </state>
+        <state name="HPF" mainImage="Resources/button-hpf.png" hoverImage="Resources/button-hpf_hover.png" clickImage="Resources/button-l-h_hover.png">
+          <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" position="0" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
+          <binding type="effect" level="instrument" effectIndex="0" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/HPF.wav" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="LEVEL" translation="fixed_value" translationValue="9" />
+        </state>
+        <state name="L/H" mainImage="Resources/button-l-h.png" hoverImage="Resources/button-l-h_hover.png" clickImage="Resources/button-b-h_hover.png">
+          <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" position="0" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
+          <binding type="effect" level="instrument" effectIndex="0" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/L-H.wav" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="LEVEL" translation="fixed_value" translationValue="6" />
+        </state>
+        <state name="B/H" mainImage="Resources/button-b-h.png" hoverImage="Resources/button-b-h_hover.png" clickImage="Resources/button-all_hover.png">
+          <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" position="0" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
+          <binding type="effect" level="instrument" effectIndex="0" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/B-H.wav" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="LEVEL" translation="fixed_value" translationValue="8" />
+        </state>
+        <state name="All" mainImage="Resources/button-all.png" hoverImage="Resources/button-all_hover.png" clickImage="Resources/button-off_hover.png">
+          <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" position="0" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
+          <binding type="effect" level="instrument" effectIndex="0" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/ALL.wav" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="1" parameter="LEVEL" translation="fixed_value" translationValue="3" />
+        </state>
+      </button>
+
     </tab>
   </ui>
   <groups attack="0.000" attackCurve="50" decayCurve="100" releaseCurve="100" decay="0" sustain="1" release="0.07" volume=".4" ampVelTrack="0">
@@ -4036,12 +4098,13 @@
   </groups>
   <effects>
     <!-- Speaker -->
+    <effect type="convolution" irFile="IR/BPF.wav" mix="0.0" enabled="false" />
     <effect type="gain" level="0" enabled="false" />
     <effect type="convolution" irFile="IR/speaker.wav" mix="0.0" enabled="false" />
+    <effect type="gain" level="0" enabled="false" />
   </effects>
   <midi>
     <cc number="1">
-     <!-- <binding level="ui" type="control" position="18" parameter="VALUE" translation="linear" translationOutputMin="0" translationOutputMax="0.70"/>-->
       <binding type="modulator" level="instrument" position="9" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       <binding type="modulator" level="instrument" position="9" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="0.2" />
     </cc>
