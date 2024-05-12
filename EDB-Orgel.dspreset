@@ -3,9 +3,13 @@
 <DecentSampler>
   <ui bgImage="Resources/background.png" width="640" height="400">
     <keyboard>
-      <color loNote="0" hiNote="11" color="FF634ADC" />
+      <color loNote="0" hiNote="4" color="FF000000" />
+      <color loNote="5" hiNote="5" color="FF6D0E00" /> <!-- #894E43 -->
+      <color loNote="7" hiNote="7" color="ffc7d44f" /> <!-- #D7DE88 -->
+      <color loNote="9" hiNote="9" color="ff5BB2BA" /> <!-- #92C3CA -->
+      <color loNote="11" hiNote="11" color="FF5E4DD3" /> <!-- #837DD7 -->
       <color loNote="12" hiNote="96" color="FFFFFFFF" />
-      <color loNote="97" hiNote="127" color="FF634ADC" />
+      <color loNote="97" hiNote="127" color="FF000000" />
     </keyboard>
     <tab name="main">
 
@@ -4104,6 +4108,50 @@
     <effect type="gain" level="0" enabled="false" />
   </effects>
   <midi>
+    <note note="5" enabled="true">
+      <binding level="ui" type="control" position="75" parameter="VALUE" translation="fixed_value" translationValue="0" />
+      <binding level="ui" type="control" position="76" parameter="VALUE" translation="fixed_value" translationValue="0" />
+      <binding level="ui" type="control" position="77" parameter="VALUE" translation="fixed_value" translationValue="0" />
+      <binding level="ui" type="control" position="78" parameter="VALUE" translation="fixed_value" translationValue="0" />
+      <binding level="ui" type="control" position="79" parameter="VALUE" translation="fixed_value" translationValue="0" />
+      <binding level="ui" type="control" position="80" parameter="VALUE" translation="fixed_value" translationValue="0" />
+      <binding level="ui" type="control" position="81" parameter="VALUE" translation="fixed_value" translationValue="0" />
+      <binding level="ui" type="control" position="82" parameter="VALUE" translation="fixed_value" translationValue="0" />
+      <binding level="ui" type="control" position="83" parameter="VALUE" translation="fixed_value" translationValue="0" />
+    </note>
+    <note note="7" enabled="true">
+      <binding level="ui" type="control" position="75" parameter="VALUE" translation="fixed_value" translationValue="1" />
+      <binding level="ui" type="control" position="76" parameter="VALUE" translation="fixed_value" translationValue="1" />
+      <binding level="ui" type="control" position="77" parameter="VALUE" translation="fixed_value" translationValue="1" />
+      <binding level="ui" type="control" position="78" parameter="VALUE" translation="fixed_value" translationValue="1" />
+      <binding level="ui" type="control" position="79" parameter="VALUE" translation="fixed_value" translationValue="1" />
+      <binding level="ui" type="control" position="80" parameter="VALUE" translation="fixed_value" translationValue="1" />
+      <binding level="ui" type="control" position="81" parameter="VALUE" translation="fixed_value" translationValue="1" />
+      <binding level="ui" type="control" position="82" parameter="VALUE" translation="fixed_value" translationValue="1" />
+      <binding level="ui" type="control" position="83" parameter="VALUE" translation="fixed_value" translationValue="1" />
+    </note>
+    <note note="9" enabled="true">
+      <binding level="ui" type="control" position="75" parameter="VALUE" translation="fixed_value" translationValue="2" />
+      <binding level="ui" type="control" position="76" parameter="VALUE" translation="fixed_value" translationValue="2" />
+      <binding level="ui" type="control" position="77" parameter="VALUE" translation="fixed_value" translationValue="2" />
+      <binding level="ui" type="control" position="78" parameter="VALUE" translation="fixed_value" translationValue="2" />
+      <binding level="ui" type="control" position="79" parameter="VALUE" translation="fixed_value" translationValue="2" />
+      <binding level="ui" type="control" position="80" parameter="VALUE" translation="fixed_value" translationValue="2" />
+      <binding level="ui" type="control" position="81" parameter="VALUE" translation="fixed_value" translationValue="2" />
+      <binding level="ui" type="control" position="82" parameter="VALUE" translation="fixed_value" translationValue="2" />
+      <binding level="ui" type="control" position="83" parameter="VALUE" translation="fixed_value" translationValue="2" />
+    </note>
+    <note note="11" enabled="true">
+      <binding level="ui" type="control" position="75" parameter="VALUE" translation="fixed_value" translationValue="3" />
+      <binding level="ui" type="control" position="76" parameter="VALUE" translation="fixed_value" translationValue="3" />
+      <binding level="ui" type="control" position="77" parameter="VALUE" translation="fixed_value" translationValue="3" />
+      <binding level="ui" type="control" position="78" parameter="VALUE" translation="fixed_value" translationValue="3" />
+      <binding level="ui" type="control" position="79" parameter="VALUE" translation="fixed_value" translationValue="3" />
+      <binding level="ui" type="control" position="80" parameter="VALUE" translation="fixed_value" translationValue="3" />
+      <binding level="ui" type="control" position="81" parameter="VALUE" translation="fixed_value" translationValue="3" />
+      <binding level="ui" type="control" position="82" parameter="VALUE" translation="fixed_value" translationValue="3" />
+      <binding level="ui" type="control" position="83" parameter="VALUE" translation="fixed_value" translationValue="3" />
+    </note>
     <cc number="1">
       <binding type="modulator" level="instrument" position="9" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       <binding type="modulator" level="instrument" position="9" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="0.2" />
