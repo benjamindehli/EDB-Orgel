@@ -16,7 +16,7 @@
       <!-- Text overlay -->
       <image x="40" y="40" width="60" height="156" path="Resources/text-overlay.png" aspectRatioMode="preserve" />
 
-      <button x="544" y="62" width="48" height="32" style="image" value="0">
+      <button x="544" y="110" width="48" height="32" style="image" value="0">
         <state name="src" mainImage="Resources/tab-src.png" hoverImage="Resources/tab-src_hover.png" clickImage="Resources/tab-mod_hover.png">
           <!-- Text overlay -->
           <binding type="control" level="ui" controlIndex="0" parameter="VISIBLE" translation="fixed_value" translationValue="true" />
@@ -192,18 +192,18 @@
       </button>
 
       <!-- Output -->
-      <button x="544" y="158" width="48" height="16" style="image" value="0">
+      <button x="544" y="190" width="48" height="16" style="image" value="0">
         <state name="Direct" mainImage="Resources/button-di.png" hoverImage="Resources/button-di_hover.png" clickImage="Resources/button-spk_hover.png">
-          <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="false" />
-          <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="fixed_value" translationValue="0" />
           <binding type="effect" level="instrument" effectIndex="3" parameter="ENABLED" translation="fixed_value" translationValue="false" />
-          <binding type="effect" level="instrument" effectIndex="3" parameter="LEVEL" translation="fixed_value" translationValue="0" />
+          <binding type="effect" level="instrument" position="3" parameter="FX_MIX" translation="fixed_value" translationValue="0" />
+          <binding type="effect" level="instrument" effectIndex="4" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="effect" level="instrument" effectIndex="4" parameter="LEVEL" translation="fixed_value" translationValue="0" />
         </state>
         <state name="Speaker" mainImage="Resources/button-spk.png" hoverImage="Resources/button-spk_hover.png" clickImage="Resources/button-di_hover.png">
-          <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
-          <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
           <binding type="effect" level="instrument" effectIndex="3" parameter="ENABLED" translation="fixed_value" translationValue="true" />
-          <binding type="effect" level="instrument" effectIndex="3" parameter="LEVEL" translation="fixed_value" translationValue="8" />
+          <binding type="effect" level="instrument" position="3" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
+          <binding type="effect" level="instrument" effectIndex="4" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" effectIndex="4" parameter="LEVEL" translation="fixed_value" translationValue="8" />
         </state>
       </button>
 
@@ -946,6 +946,17 @@
         </state>
       </button>
 
+      <!-- Channels -->
+      <button x="544" y="222" width="48" height="16" style="image" value="0">
+        <state name="Mono" mainImage="Resources/button-mono.png" hoverImage="Resources/button-mono_hover.png" clickImage="Resources/button-stereo.png">
+          <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="false" />
+          <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="fixed_value" translationValue="0" />
+        </state>
+        <state name="Stereo" mainImage="Resources/button-stereo.png" hoverImage="Resources/button-stereo_hover.png" clickImage="Resources/button-mono.png">
+          <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="true" />
+          <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
+        </state>
+      </button>
     </tab>
   </ui>
   <groups attack="0.000" attackCurve="50" decayCurve="100" releaseCurve="100" decay="0" sustain="1" release="0.07" volume=".4" ampVelTrack="0">
@@ -4104,6 +4115,7 @@
     <!-- Speaker -->
     <effect type="convolution" irFile="IR/BPF.wav" mix="0.0" enabled="false" />
     <effect type="gain" level="0" enabled="false" />
+    <effect type="chorus" mix="0" modDepth="0.09" modRate="0.41"/>
     <effect type="convolution" irFile="IR/speaker.wav" mix="0.0" enabled="false" />
     <effect type="gain" level="0" enabled="false" />
   </effects>
