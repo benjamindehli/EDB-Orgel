@@ -886,7 +886,7 @@
       </button>
 
       <!-- Filter -->
-      <button x="544" y="126" width="48" height="16" style="image" value="0">
+      <button x="544" y="158" width="48" height="16" style="image" value="0">
         <state name="Off" mainImage="Resources/button-off.png" hoverImage="Resources/button-off_hover.png" clickImage="Resources/button-lpf_hover.png">
           <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="false" />
           <binding type="effect" level="instrument" position="0" parameter="FX_MIX" translation="fixed_value" translationValue="0" />
@@ -943,6 +943,36 @@
           <binding type="effect" level="instrument" effectIndex="0" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/ALL.wav" />
           <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="effect" level="instrument" effectIndex="1" parameter="LEVEL" translation="fixed_value" translationValue="3" />
+        </state>
+      </button>
+
+      <!-- Presets -->
+      <button x="544" y="46" width="48" height="48" style="image" value="1">
+        <state name="pre" mainImage="Resources/button-load.png" hoverImage="Resources/button-load_hover.png" clickImage="Resources/button-load_click.png">
+          <binding type="control" level="ui" controlIndex="88" parameter="VALUE" translation="fixed_value" translationValue="0" />
+        </state>
+        <state name="usr" mainImage="Resources/button-load.png" hoverImage="Resources/button-load_hover.png" clickImage="Resources/button-load_click.png">
+          <binding type="control" level="ui" controlIndex="88" parameter="VALUE" translation="fixed_value" translationValue="1" />
+        </state>
+      </button>
+      <!-- Preset dialog -->
+      <image x="0" y="-51" width="640" height="400" path="Resources/dialog-load-patch.png" aspectRatioMode="preserve" />
+      <menu x="224" y="94" width="192" height="32">
+        <option name="Init patch">
+        </option>
+      </menu>
+      <button x="344" y="148" width="88" height="26" style="image" value="1">
+        <state name="open" mainImage="Resources/button-close.png" hoverImage="Resources/button-close_hover.png" clickImage="Resources/button-close_click.png">
+          <binding type="control" level="ui" controlIndex="85" parameter="VALUE" translation="fixed_value" translationValue="0" />
+          <binding type="control" level="ui" controlIndex="86" parameter="VISIBLE" translation="fixed_value" translationValue="true" />
+          <binding type="control" level="ui" controlIndex="87" parameter="VISIBLE" translation="fixed_value" translationValue="true" />
+          <binding type="control" level="ui" controlIndex="88" parameter="VISIBLE" translation="fixed_value" translationValue="true" />
+        </state>
+        <state name="close" mainImage="Resources/button-close.png" hoverImage="Resources/button-close_hover.png" clickImage="Resources/button-close_click.png">
+          <binding type="control" level="ui" controlIndex="85" parameter="VALUE" translation="fixed_value" translationValue="1" />
+          <binding type="control" level="ui" controlIndex="86" parameter="VISIBLE" translation="fixed_value" translationValue="false" />
+          <binding type="control" level="ui" controlIndex="87" parameter="VISIBLE" translation="fixed_value" translationValue="false" />
+          <binding type="control" level="ui" controlIndex="88" parameter="VISIBLE" translation="fixed_value" translationValue="false" />
         </state>
       </button>
 
