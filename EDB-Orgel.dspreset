@@ -237,43 +237,43 @@
       </control>
 
       <!-- Modulation 16 -->
-      <control x="112" y="46" width="32" height="16" parameterName="Attack 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="112" y="46" width="32" height="16" parameterName="Attack 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="0" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="1" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="2" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="3" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
       </control>
-      <control x="112" y="62" width="32" height="16" parameterName="Decay 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="112" y="62" width="32" height="16" parameterName="Decay 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="0" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="1" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="2" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="3" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
       </control>
-      <control x="112" y="78" width="32" height="16" parameterName="Sustain 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="112" y="78" width="32" height="16" parameterName="Sustain 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="0" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="1" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="2" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="3" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="112" y="94" width="32" height="16" parameterName="Release 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="112" y="94" width="32" height="16" parameterName="Release 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="0" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="1" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="2" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="3" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
       </control>
-      <control x="112" y="126" width="32" height="16" parameterName="Tremolo speed 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="112" y="126" width="32" height="16" parameterName="Tremolo speed 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="modulator" level="instrument" position="0" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="0" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="0" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="0" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
-      <control x="112" y="142" width="32" height="16" parameterName="Tremolo depth 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="112" y="142" width="32" height="16" parameterName="Tremolo depth 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="modulator" level="instrument" position="0" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="0" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="0" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="0" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="112" y="174" width="32" height="16" parameterName="Velocity sensitivity 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="112" y="174" width="32" height="16" parameterName="Velocity sensitivity 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="0" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="1" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="2" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
@@ -281,43 +281,43 @@
       </control>
 
       <!-- Modulation 5 1/3 -->
-      <control x="160" y="46" width="32" height="16" parameterName="Attack 5 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="160" y="46" width="32" height="16" parameterName="Attack 5 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="4" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="5" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="6" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="7" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
       </control>
-      <control x="160" y="62" width="32" height="16" parameterName="Decay 5 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="160" y="62" width="32" height="16" parameterName="Decay 5 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="4" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="5" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="6" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="7" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
       </control>
-      <control x="160" y="78" width="32" height="16" parameterName="Sustain 5 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="160" y="78" width="32" height="16" parameterName="Sustain 5 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="4" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="5" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="6" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="7" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="160" y="94" width="32" height="16" parameterName="Release 5 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="160" y="94" width="32" height="16" parameterName="Release 5 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="4" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="5" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="6" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="7" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
       </control>
-      <control x="160" y="126" width="32" height="16" parameterName="Tremolo speed 5 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="160" y="126" width="32" height="16" parameterName="Tremolo speed 5 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="modulator" level="instrument" position="1" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="1" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="1" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="1" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
-      <control x="160" y="142" width="32" height="16" parameterName="Tremolo depth 5 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="160" y="142" width="32" height="16" parameterName="Tremolo depth 5 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="modulator" level="instrument" position="1" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="1" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="1" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="1" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="160" y="174" width="32" height="16" parameterName="Velocity sensitivity 5 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="160" y="174" width="32" height="16" parameterName="Velocity sensitivity 5 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="4" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="5" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="6" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
@@ -325,43 +325,43 @@
       </control>
 
       <!-- Modulation 8 -->
-      <control x="208" y="46" width="32" height="16" parameterName="Attack 8" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="208" y="46" width="32" height="16" parameterName="Attack 8" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="8" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="9" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="10" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="11" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
       </control>
-      <control x="208" y="62" width="32" height="16" parameterName="Decay 8" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="208" y="62" width="32" height="16" parameterName="Decay 8" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="8" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="9" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="10" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="11" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
       </control>
-      <control x="208" y="78" width="32" height="16" parameterName="Sustain 8" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="208" y="78" width="32" height="16" parameterName="Sustain 8" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="8" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="9" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="10" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="11" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="208" y="94" width="32" height="16" parameterName="Release 8" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="208" y="94" width="32" height="16" parameterName="Release 8" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="8" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="9" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="10" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="11" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
       </control>
-      <control x="208" y="126" width="32" height="16" parameterName="Tremolo speed 8" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="208" y="126" width="32" height="16" parameterName="Tremolo speed 8" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="modulator" level="instrument" position="2" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="2" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="2" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="2" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
-      <control x="208" y="142" width="32" height="16" parameterName="Tremolo depth 8" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="208" y="142" width="32" height="16" parameterName="Tremolo depth 8" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="modulator" level="instrument" position="2" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="2" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="2" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="2" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="208" y="174" width="32" height="16" parameterName="Velocity sensitivity 8" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="208" y="174" width="32" height="16" parameterName="Velocity sensitivity 8" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="8" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="9" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="10" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
@@ -369,43 +369,43 @@
       </control>
 
       <!-- Modulation 4 -->
-      <control x="256" y="46" width="32" height="16" parameterName="Attack 4" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="256" y="46" width="32" height="16" parameterName="Attack 4" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="12" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="13" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="14" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="15" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
       </control>
-      <control x="256" y="62" width="32" height="16" parameterName="Decay 4" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="256" y="62" width="32" height="16" parameterName="Decay 4" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="12" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="13" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="14" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="15" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
       </control>
-      <control x="256" y="78" width="32" height="16" parameterName="Sustain 4" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="256" y="78" width="32" height="16" parameterName="Sustain 4" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="12" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="13" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="14" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="15" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="256" y="94" width="32" height="16" parameterName="Release 4" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="256" y="94" width="32" height="16" parameterName="Release 4" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="12" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="13" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="14" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="15" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
       </control>
-      <control x="256" y="126" width="32" height="16" parameterName="Tremolo speed 4" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="256" y="126" width="32" height="16" parameterName="Tremolo speed 4" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="modulator" level="instrument" position="3" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="3" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="3" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="3" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
-      <control x="256" y="142" width="32" height="16" parameterName="Tremolo depth 4" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="256" y="142" width="32" height="16" parameterName="Tremolo depth 4" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="modulator" level="instrument" position="3" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="3" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="3" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="3" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="256" y="174" width="32" height="16" parameterName="Velocity sensitivity 4" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="256" y="174" width="32" height="16" parameterName="Velocity sensitivity 4" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="12" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="13" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="14" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
@@ -413,43 +413,43 @@
       </control>
 
       <!-- Modulation 2 2/3 -->
-      <control x="304" y="46" width="32" height="16" parameterName="Attack 2 2/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="304" y="46" width="32" height="16" parameterName="Attack 2 2/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="16" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="17" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="18" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="19" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
       </control>
-      <control x="304" y="62" width="32" height="16" parameterName="Decay 2 2/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="304" y="62" width="32" height="16" parameterName="Decay 2 2/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="16" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="17" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="18" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="19" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
       </control>
-      <control x="304" y="78" width="32" height="16" parameterName="Sustain 2 2/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="304" y="78" width="32" height="16" parameterName="Sustain 2 2/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="16" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="17" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="18" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="19" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="304" y="94" width="32" height="16" parameterName="Release 2 2/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="304" y="94" width="32" height="16" parameterName="Release 2 2/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="16" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="17" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="18" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="19" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
       </control>
-      <control x="304" y="126" width="32" height="16" parameterName="Tremolo speed 2 2/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="304" y="126" width="32" height="16" parameterName="Tremolo speed 2 2/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="modulator" level="instrument" position="4" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="4" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="4" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="4" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
-      <control x="304" y="142" width="32" height="16" parameterName="Tremolo depth 2 2/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="304" y="142" width="32" height="16" parameterName="Tremolo depth 2 2/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="modulator" level="instrument" position="4" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="4" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="4" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="4" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="304" y="174" width="32" height="16" parameterName="Velocity sensitivity 2 2/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="304" y="174" width="32" height="16" parameterName="Velocity sensitivity 2 2/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="16" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="17" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="18" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
@@ -457,43 +457,43 @@
       </control>
 
       <!-- Modulation 2 -->
-      <control x="352" y="46" width="32" height="16" parameterName="Attack 2" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="352" y="46" width="32" height="16" parameterName="Attack 2" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="20" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="21" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="22" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="23" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
       </control>
-      <control x="352" y="62" width="32" height="16" parameterName="Decay 2" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="352" y="62" width="32" height="16" parameterName="Decay 2" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="20" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="21" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="22" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="23" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
       </control>
-      <control x="352" y="78" width="32" height="16" parameterName="Sustain 2" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="352" y="78" width="32" height="16" parameterName="Sustain 2" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="20" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="21" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="22" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="23" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="352" y="94" width="32" height="16" parameterName="Release 2" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="352" y="94" width="32" height="16" parameterName="Release 2" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="20" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="21" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="22" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="23" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
       </control>
-      <control x="352" y="126" width="32" height="16" parameterName="Tremolo speed 2" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="352" y="126" width="32" height="16" parameterName="Tremolo speed 2" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="modulator" level="instrument" position="5" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="5" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="5" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="5" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
-      <control x="352" y="142" width="32" height="16" parameterName="Tremolo depth 2" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="352" y="142" width="32" height="16" parameterName="Tremolo depth 2" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="modulator" level="instrument" position="5" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="5" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="5" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="5" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="352" y="174" width="32" height="16" parameterName="Velocity sensitivity 2" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="352" y="174" width="32" height="16" parameterName="Velocity sensitivity 2" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="20" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="21" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="22" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
@@ -501,43 +501,43 @@
       </control>
 
       <!-- Modulation 1 3/5 -->
-      <control x="400" y="46" width="32" height="16" parameterName="Attack 1 3/5" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="400" y="46" width="32" height="16" parameterName="Attack 1 3/5" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="24" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="25" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="26" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="27" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
       </control>
-      <control x="400" y="62" width="32" height="16" parameterName="Decay 1 3/5" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="400" y="62" width="32" height="16" parameterName="Decay 1 3/5" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="24" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="25" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="26" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="27" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
       </control>
-      <control x="400" y="78" width="32" height="16" parameterName="Sustain 1 3/5" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="400" y="78" width="32" height="16" parameterName="Sustain 1 3/5" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="24" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="25" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="26" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="27" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="400" y="94" width="32" height="16" parameterName="Release 1 3/5" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="400" y="94" width="32" height="16" parameterName="Release 1 3/5" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="24" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="25" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="26" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="27" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
       </control>
-      <control x="400" y="126" width="32" height="16" parameterName="Tremolo speed 1 3/5" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="400" y="126" width="32" height="16" parameterName="Tremolo speed 1 3/5" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="modulator" level="instrument" position="6" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="6" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="6" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="6" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
-      <control x="400" y="142" width="32" height="16" parameterName="Tremolo depth 1 3/5" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="400" y="142" width="32" height="16" parameterName="Tremolo depth 1 3/5" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="modulator" level="instrument" position="6" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="6" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="6" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="6" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="400" y="174" width="32" height="16" parameterName="Velocity sensitivity 1 3/5" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="400" y="174" width="32" height="16" parameterName="Velocity sensitivity 1 3/5" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="24" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="25" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="26" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
@@ -545,43 +545,43 @@
       </control>
 
       <!-- Modulation 1 1/3 -->
-      <control x="448" y="46" width="32" height="16" parameterName="Attack 1 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="448" y="46" width="32" height="16" parameterName="Attack 1 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="28" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="29" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="30" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="31" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
       </control>
-      <control x="448" y="62" width="32" height="16" parameterName="Decay 1 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="448" y="62" width="32" height="16" parameterName="Decay 1 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="28" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="29" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="30" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="31" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
       </control>
-      <control x="448" y="78" width="32" height="16" parameterName="Sustain 1 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="448" y="78" width="32" height="16" parameterName="Sustain 1 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="28" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="29" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="30" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="31" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="448" y="94" width="32" height="16" parameterName="Release 1 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="448" y="94" width="32" height="16" parameterName="Release 1 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="28" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="29" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="30" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="31" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
       </control>
-      <control x="448" y="126" width="32" height="16" parameterName="Tremolo speed 1 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="448" y="126" width="32" height="16" parameterName="Tremolo speed 1 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="modulator" level="instrument" position="7" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="7" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="7" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="7" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
-      <control x="448" y="142" width="32" height="16" parameterName="Tremolo depth 1 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="448" y="142" width="32" height="16" parameterName="Tremolo depth 1 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="modulator" level="instrument" position="7" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="7" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="7" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="7" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="448" y="174" width="32" height="16" parameterName="Velocity sensitivity 1 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="448" y="174" width="32" height="16" parameterName="Velocity sensitivity 1 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="28" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="29" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="30" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
@@ -589,43 +589,43 @@
       </control>
 
       <!-- Modulation 1 -->
-      <control x="496" y="46" width="32" height="16" parameterName="Attack 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="496" y="46" width="32" height="16" parameterName="Attack 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="32" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="33" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="34" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="35" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
       </control>
-      <control x="496" y="62" width="32" height="16" parameterName="Decay 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="496" y="62" width="32" height="16" parameterName="Decay 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="32" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="33" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="34" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="35" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
       </control>
-      <control x="496" y="78" width="32" height="16" parameterName="Sustain 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="496" y="78" width="32" height="16" parameterName="Sustain 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="32" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="33" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="34" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="35" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="496" y="94" width="32" height="16" parameterName="Release 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="496" y="94" width="32" height="16" parameterName="Release 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="32" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="33" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="34" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="35" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
       </control>
-      <control x="496" y="126" width="32" height="16" parameterName="Tremolo speed 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="496" y="126" width="32" height="16" parameterName="Tremolo speed 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="modulator" level="instrument" position="8" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="8" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="8" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="8" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
-      <control x="496" y="142" width="32" height="16" parameterName="Tremolo depth 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="496" y="142" width="32" height="16" parameterName="Tremolo depth 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="modulator" level="instrument" position="8" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="8" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="8" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="8" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="496" y="174" width="32" height="16" parameterName="Velocity sensitivity 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visibible="false">
+      <control x="496" y="174" width="32" height="16" parameterName="Velocity sensitivity 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
         <binding type="amp" level="group" position="32" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="33" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="34" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
