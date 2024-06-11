@@ -987,6 +987,13 @@
           <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
         </state>
       </button>
+
+      <!-- Vibrato -->
+      <control x="0" y="0" width="0" height="0" parameterName="Velocity sensitivity 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" visible="false">
+        <binding type="modulator" level="instrument" position="9" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
+        <binding type="modulator" level="instrument" position="9" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="0.2" />
+      </control>
+
     </tab>
   </ui>
   <groups attack="0.000" attackCurve="50" decayCurve="100" releaseCurve="100" decay="0" sustain="1" release="0.07" volume=".4" ampVelTrack="0">
@@ -4195,8 +4202,7 @@
       <binding level="ui" type="control" position="83" parameter="VALUE" translation="fixed_value" translationValue="3" />
     </note>
     <cc number="1">
-      <binding type="modulator" level="instrument" position="9" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-      <binding type="modulator" level="instrument" position="9" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="0.2" />
+      <binding type="control" level="ui" controlIndex="90" parameter="VALUE" translation="linear" translationOutputMin="0" translationOutputMax="99" />
     </cc>
   </midi>
   <modulators>
