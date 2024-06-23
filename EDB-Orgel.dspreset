@@ -959,6 +959,48 @@
       <image x="0" y="-51" width="640" height="400" path="Resources/dialog-load-patch.png" aspectRatioMode="preserve" />
       <menu x="224" y="94" width="192" height="32">
         <option name="Init patch">
+          <binding type="control" level="ui" controlIndex="2"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Output                             |   0-1  -->
+          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="100" /> <!-- Drawbar 16                         | 127-0  -->
+          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="100" /> <!-- Drawbar 5 1/3                      | 127-0  -->
+          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="100" /> <!-- Drawbar 8                          | 127-0  -->
+          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="100" /> <!-- Drawbar 4                          | 127-0  -->
+          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="100" /> <!-- Drawbar 2 2/3                      | 127-0  -->
+          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="100" /> <!-- Drawbar 2                          | 127-0  -->
+          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="100" /> <!-- Drawbar 1 3/5                      | 127-0  -->
+          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="100" /> <!-- Drawbar 1 1/3                      | 127-0  -->
+          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="100" /> <!-- Drawbar 1                          | 127-0  -->
+          <binding type="control" level="ui" controlIndex="12" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 16 Attack                  |   0-99 -->
+          <binding type="control" level="ui" controlIndex="13" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- Drawbar 16 Decay                   |   0-99 -->
+          <binding type="control" level="ui" controlIndex="14" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- Drawbar 16 Sustain                 |   0-99 -->
+          <binding type="control" level="ui" controlIndex="15" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 16 Release                 |   0-99 -->
+          <binding type="control" level="ui" controlIndex="16" parameter="VALUE" translation="fixed_value" translationValue="40" />  <!-- Drawbar 16 Tremolo Speed           |   0-99 -->
+          <binding type="control" level="ui" controlIndex="17" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 16 Tremolo Depth           |   0-99 -->
+          <binding type="control" level="ui" controlIndex="18" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 16 Velocity Sensitivity    |   0-99 -->
+          <binding type="control" level="ui" controlIndex="19" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 5 1/3 Attack               |   0-99 -->
+          <binding type="control" level="ui" controlIndex="20" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- Drawbar 5 1/3 Decay                |   0-99 -->
+          <binding type="control" level="ui" controlIndex="21" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- Drawbar 5 1/3 Sustain              |   0-99 -->
+          <binding type="control" level="ui" controlIndex="22" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 5 1/3 Release              |   0-99 -->
+          <binding type="control" level="ui" controlIndex="23" parameter="VALUE" translation="fixed_value" translationValue="40" />  <!-- Drawbar 5 1/3 Tremolo Speed        |   0-99 -->
+          <binding type="control" level="ui" controlIndex="24" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 5 1/3 Tremolo Depth        |   0-99 -->
+          <binding type="control" level="ui" controlIndex="25" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 5 1/3 Velocity Sensitivity |   0-99 -->
+          <binding type="control" level="ui" controlIndex="26" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 8 Attack                   |   0-99 -->
+          <binding type="control" level="ui" controlIndex="27" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- Drawbar 8 Decay                    |   0-99 -->
+          <binding type="control" level="ui" controlIndex="28" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- Drawbar 8 Sustain                  |   0-99 -->
+          <binding type="control" level="ui" controlIndex="29" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 8 Release                  |   0-99 -->
+          <binding type="control" level="ui" controlIndex="30" parameter="VALUE" translation="fixed_value" translationValue="40" />  <!-- Drawbar 8 Tremolo Speed            |   0-99 -->
+          <binding type="control" level="ui" controlIndex="31" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 8 Tremolo Depth            |   0-99 -->
+          <binding type="control" level="ui" controlIndex="32" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 8 Velocity Sensitivity     |   0-99 -->
+          <binding type="control" level="ui" controlIndex="33" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 4 Attack                   |   0-99 -->
+          <binding type="control" level="ui" controlIndex="34" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- Drawbar 4 Decay                    |   0-99 -->
+          <binding type="control" level="ui" controlIndex="35" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- Drawbar 4 Sustain                  |   0-99 -->
+          <binding type="control" level="ui" controlIndex="36" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 4 Release                  |   0-99 -->
+          <binding type="control" level="ui" controlIndex="37" parameter="VALUE" translation="fixed_value" translationValue="40" />  <!-- Drawbar 4 Tremolo Speed            |   0-99 -->
+          <binding type="control" level="ui" controlIndex="38" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 4 Tremolo Depth            |   0-99 -->
+          <binding type="control" level="ui" controlIndex="39" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 4 Velocity Sensitivity     |   0-99 -->
+          <binding type="control" level="ui" controlIndex="90" parameter="VALUE" translation="fixed_value" translationValue="20" />  <!-- Vibrato                            |   0-99 -->
+        </option>
+        <option name="Init patch 2">
+          <binding type="control" level="ui" controlIndex="90" parameter="VALUE" translation="fixed_value" translationValue="90" /> <!-- Vibrato -->
         </option>
       </menu>
       <button x="344" y="148" width="88" height="26" style="image" value="1">
