@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <DecentSampler>
-  <ui bgImage="Resources/background.png" width="640" height="400">
+    <ui bgImage="Resources/background.png" width="640" height="400">
     <keyboard>
       <color loNote="0" hiNote="4" color="FF000000" />
       <color loNote="5" hiNote="5" color="FF6D0E00" /> <!-- #894E43 -->
@@ -887,14 +887,13 @@
 
       <!-- Filter -->
       <button x="544" y="158" width="48" height="16" style="image" value="0">
-        <state name="Off" mainImage="Resources/button-off.png" hoverImage="Resources/button-off_hover.png" clickImage="Resources/button-lpf_hover.png">
+        <state name="OFF" mainImage="Resources/button-off.png" hoverImage="Resources/button-off_hover.png" clickImage="Resources/button-lpf_hover.png">
           <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="false" />
           <binding type="effect" level="instrument" position="0" parameter="FX_MIX" translation="fixed_value" translationValue="0" />
           <binding type="effect" level="instrument" effectIndex="1" parameter="LEVEL" translation="fixed_value" translationValue="3" />
           <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="false" />
           <binding type="effect" level="instrument" effectIndex="1" parameter="LEVEL" translation="fixed_value" translationValue="1" />
         </state>
-       
         <state name="LPF" mainImage="Resources/button-lpf.png" hoverImage="Resources/button-lpf_hover.png" clickImage="Resources/button-bpf_hover.png">
           <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="effect" level="instrument" position="0" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
@@ -937,7 +936,7 @@
           <binding type="effect" level="instrument" effectIndex="1" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="effect" level="instrument" effectIndex="1" parameter="LEVEL" translation="fixed_value" translationValue="8" />
         </state>
-        <state name="All" mainImage="Resources/button-all.png" hoverImage="Resources/button-all_hover.png" clickImage="Resources/button-off_hover.png">
+        <state name="ALL" mainImage="Resources/button-all.png" hoverImage="Resources/button-all_hover.png" clickImage="Resources/button-off_hover.png">
           <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="effect" level="instrument" position="0" parameter="FX_MIX" translation="fixed_value" translationValue="1" />
           <binding type="effect" level="instrument" effectIndex="0" parameter="FX_IR_FILE" translation="fixed_value" translationValue="IR/ALL.wav" />
@@ -959,45 +958,91 @@
       <image x="0" y="-51" width="640" height="400" path="Resources/dialog-load-patch.png" aspectRatioMode="preserve" />
       <menu x="224" y="94" width="192" height="32">
         <option name="Init patch">
-          <binding type="control" level="ui" controlIndex="2"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Output                             |   0-1  -->
-          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="100" /> <!-- Drawbar 16                         | 127-0  -->
-          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="100" /> <!-- Drawbar 5 1/3                      | 127-0  -->
-          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="100" /> <!-- Drawbar 8                          | 127-0  -->
-          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="100" /> <!-- Drawbar 4                          | 127-0  -->
-          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="100" /> <!-- Drawbar 2 2/3                      | 127-0  -->
-          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="100" /> <!-- Drawbar 2                          | 127-0  -->
-          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="100" /> <!-- Drawbar 1 3/5                      | 127-0  -->
-          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="100" /> <!-- Drawbar 1 1/3                      | 127-0  -->
-          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="100" /> <!-- Drawbar 1                          | 127-0  -->
-          <binding type="control" level="ui" controlIndex="12" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 16 Attack                  |   0-99 -->
-          <binding type="control" level="ui" controlIndex="13" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- Drawbar 16 Decay                   |   0-99 -->
-          <binding type="control" level="ui" controlIndex="14" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- Drawbar 16 Sustain                 |   0-99 -->
-          <binding type="control" level="ui" controlIndex="15" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 16 Release                 |   0-99 -->
-          <binding type="control" level="ui" controlIndex="16" parameter="VALUE" translation="fixed_value" translationValue="40" />  <!-- Drawbar 16 Tremolo Speed           |   0-99 -->
-          <binding type="control" level="ui" controlIndex="17" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 16 Tremolo Depth           |   0-99 -->
-          <binding type="control" level="ui" controlIndex="18" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 16 Velocity Sensitivity    |   0-99 -->
-          <binding type="control" level="ui" controlIndex="19" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 5 1/3 Attack               |   0-99 -->
-          <binding type="control" level="ui" controlIndex="20" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- Drawbar 5 1/3 Decay                |   0-99 -->
-          <binding type="control" level="ui" controlIndex="21" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- Drawbar 5 1/3 Sustain              |   0-99 -->
-          <binding type="control" level="ui" controlIndex="22" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 5 1/3 Release              |   0-99 -->
-          <binding type="control" level="ui" controlIndex="23" parameter="VALUE" translation="fixed_value" translationValue="40" />  <!-- Drawbar 5 1/3 Tremolo Speed        |   0-99 -->
-          <binding type="control" level="ui" controlIndex="24" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 5 1/3 Tremolo Depth        |   0-99 -->
-          <binding type="control" level="ui" controlIndex="25" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 5 1/3 Velocity Sensitivity |   0-99 -->
-          <binding type="control" level="ui" controlIndex="26" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 8 Attack                   |   0-99 -->
-          <binding type="control" level="ui" controlIndex="27" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- Drawbar 8 Decay                    |   0-99 -->
-          <binding type="control" level="ui" controlIndex="28" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- Drawbar 8 Sustain                  |   0-99 -->
-          <binding type="control" level="ui" controlIndex="29" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 8 Release                  |   0-99 -->
-          <binding type="control" level="ui" controlIndex="30" parameter="VALUE" translation="fixed_value" translationValue="40" />  <!-- Drawbar 8 Tremolo Speed            |   0-99 -->
-          <binding type="control" level="ui" controlIndex="31" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 8 Tremolo Depth            |   0-99 -->
-          <binding type="control" level="ui" controlIndex="32" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 8 Velocity Sensitivity     |   0-99 -->
-          <binding type="control" level="ui" controlIndex="33" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 4 Attack                   |   0-99 -->
-          <binding type="control" level="ui" controlIndex="34" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- Drawbar 4 Decay                    |   0-99 -->
-          <binding type="control" level="ui" controlIndex="35" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- Drawbar 4 Sustain                  |   0-99 -->
-          <binding type="control" level="ui" controlIndex="36" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 4 Release                  |   0-99 -->
-          <binding type="control" level="ui" controlIndex="37" parameter="VALUE" translation="fixed_value" translationValue="40" />  <!-- Drawbar 4 Tremolo Speed            |   0-99 -->
-          <binding type="control" level="ui" controlIndex="38" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 4 Tremolo Depth            |   0-99 -->
-          <binding type="control" level="ui" controlIndex="39" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Drawbar 4 Velocity Sensitivity     |   0-99 -->
-          <binding type="control" level="ui" controlIndex="90" parameter="VALUE" translation="fixed_value" translationValue="20" />  <!-- Vibrato                            |   0-99 -->
+          <binding type="control" level="ui" controlIndex="2"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Output                     |   0-1   |                                          -->
+          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 16 Drawbar                 | 127-0   |                                          -->
+          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 5 1/3 Drawbar              | 127-0   |                                          -->
+          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 8 Drawbar                  | 127-0   |                                          -->
+          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 4 Drawbar                  | 127-0   |                                          -->
+          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 2 2/3 Drawbar              | 127-0   |                                          -->
+          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 2 Drawbar                  | 127-0   |                                          -->
+          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 3/5 Drawbar              | 127-0   |                                          -->
+          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 1/3 Drawbar              | 127-0   |                                          -->
+          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 Drawbar                  | 127-0   |                                          -->
+          <binding type="control" level="ui" controlIndex="12" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Attack                  |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="13" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- 16 Decay                   |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="14" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- 16 Sustain                 |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="15" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Release                 |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="16" parameter="VALUE" translation="fixed_value" translationValue="40" />  <!-- 16 Tremolo Speed           |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="17" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Tremolo Depth           |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="18" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Velocity Sensitivity    |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="19" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 5 1/3 Attack               |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="20" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- 5 1/3 Decay                |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="21" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- 5 1/3 Sustain              |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="22" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 5 1/3 Release              |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="23" parameter="VALUE" translation="fixed_value" translationValue="40" />  <!-- 5 1/3 Tremolo Speed        |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="24" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 5 1/3 Tremolo Depth        |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="25" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 5 1/3 Velocity Sensitivity |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="26" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 8 Attack                   |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="27" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- 8 Decay                    |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="28" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- 8 Sustain                  |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="29" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 8 Release                  |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="30" parameter="VALUE" translation="fixed_value" translationValue="40" />  <!-- 8 Tremolo Speed            |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="31" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 8 Tremolo Depth            |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="32" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 8 Velocity Sensitivity     |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="33" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 4 Attack                   |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="34" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- 4 Decay                    |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="35" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- 4 Sustain                  |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="36" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 4 Release                  |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="37" parameter="VALUE" translation="fixed_value" translationValue="40" />  <!-- 4 Tremolo Speed            |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="38" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 4 Tremolo Depth            |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="39" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 4 Velocity Sensitivity     |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="40" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 2 2/3 Attack               |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="41" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- 2 2/3 Decay                |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="42" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- 2 2/3 Sustain              |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="43" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 2 2/3 Release              |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="44" parameter="VALUE" translation="fixed_value" translationValue="40" />  <!-- 2 2/3 Tremolo Speed        |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="45" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 2 2/3 Tremolo Depth        |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="46" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 2 2/3 Velocity Sensitivity |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="47" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 2 Attack                   |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="48" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- 2 Decay                    |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="49" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- 2 Sustain                  |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="50" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 2 Release                  |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="51" parameter="VALUE" translation="fixed_value" translationValue="40" />  <!-- 2 Tremolo Speed            |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="52" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 2 Tremolo Depth            |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="53" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 2 Velocity Sensitivity     |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="54" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 3/5 Attack               |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="55" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- 1 3/5 Decay                |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="56" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- 1 3/5 Sustain              |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="57" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 3/5 Release              |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="58" parameter="VALUE" translation="fixed_value" translationValue="40" />  <!-- 1 3/5 Tremolo Speed        |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="59" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 3/5 Tremolo Depth        |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="60" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 3/5 Velocity Sensitivity |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="61" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 1/3 Attack               |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="62" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- 1 1/3 Decay                |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="63" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- 1 1/3 Sustain              |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="64" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 1/3 Release              |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="65" parameter="VALUE" translation="fixed_value" translationValue="40" />  <!-- 1 1/3 Tremolo Speed        |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="66" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 1/3 Tremolo Depth        |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="67" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 1/3 Velocity Sensitivity |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="68" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 Attack                   |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="69" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- 1 Decay                    |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="70" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- 1 Sustain                  |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="71" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 Release                  |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="72" parameter="VALUE" translation="fixed_value" translationValue="40" />  <!-- 1 Tremolo Speed            |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="73" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 Tremolo Depth            |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="74" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 Velocity Sensitivity     |   0-99  |                                          -->
+          <binding type="control" level="ui" controlIndex="75" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Sound source            |   0-3   | [64, PD, FM, LA]                         -->
+          <binding type="control" level="ui" controlIndex="76" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 5 1/3 Sound source         |   0-3   | [64, PD, FM, LA]                         -->
+          <binding type="control" level="ui" controlIndex="77" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 8 Sound source             |   0-3   | [64, PD, FM, LA]                         -->
+          <binding type="control" level="ui" controlIndex="78" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 4 Sound source             |   0-3   | [64, PD, FM, LA]                         -->
+          <binding type="control" level="ui" controlIndex="79" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 2 2/3 Sound source         |   0-3   | [64, PD, FM, LA]                         -->
+          <binding type="control" level="ui" controlIndex="80" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 2 Sound source             |   0-3   | [64, PD, FM, LA]                         -->
+          <binding type="control" level="ui" controlIndex="81" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 3/5 Sound source         |   0-3   | [64, PD, FM, LA]                         -->
+          <binding type="control" level="ui" controlIndex="82" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 1/3 Sound source         |   0-3   | [64, PD, FM, LA]                         -->
+          <binding type="control" level="ui" controlIndex="83" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 Sound source             |   0-3   | [64, PD, FM, LA]                         -->
+          <binding type="control" level="ui" controlIndex="84" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Filter                     |   0-7   | [OFF, LPF, BPF, L/B, HPF, L/H, B/H, ALL] -->
+          <binding type="control" level="ui" controlIndex="89" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Channels                   |   0-1   | [Mono, Stereo]                           -->
+          <binding type="control" level="ui" controlIndex="90" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Vibrato                    |   0-99  |                                          -->
         </option>
         <option name="Init patch 2">
           <binding type="control" level="ui" controlIndex="90" parameter="VALUE" translation="fixed_value" translationValue="90" /> <!-- Vibrato -->
