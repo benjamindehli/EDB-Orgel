@@ -1770,8 +1770,10 @@
 
       <!-- Vibrato -->
       <control x="0" y="0" width="0" height="0" parameterName="Velocity sensitivity 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" visible="false">
-        <binding type="modulator" level="instrument" position="9" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
+        <binding type="modulator" level="instrument" position="9" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="5" />
         <binding type="modulator" level="instrument" position="9" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="0.2" />
+        <binding type="modulator" level="instrument" position="10" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="8" />
+        <binding type="modulator" level="instrument" position="10" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="0.2" />
       </control>
 
     </tab>
@@ -5050,8 +5052,45 @@
       <binding type="amp" level="group" position="35" parameter="AMP_VOLUME" modBehavior="set" translation="linear" translationOutputMin="0" translationOutputMax="1" />
     </lfo>
     <!-- Vibrato -->
-    <lfo shape="sine" frequency="8.5" modAmount="0.00">
-      <binding type="amp" level="instrument" parameter="GLOBAL_TUNING" />
+    <lfo shape="sine" frequency="5" modAmount="0.00">
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="0"  translation="linear" translationOutputMin="-0.6" translationOutputMax="0.6" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="1"  translation="linear" translationOutputMin="-0.6" translationOutputMax="0.6" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="2"  translation="linear" translationOutputMin="-0.6" translationOutputMax="0.6" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="3"  translation="linear" translationOutputMin="-0.6" translationOutputMax="0.6" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="8"  translation="linear" translationOutputMin="-0.8" translationOutputMax="0.8" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="9"  translation="linear" translationOutputMin="-0.8" translationOutputMax="0.8" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="10" translation="linear" translationOutputMin="-0.8" translationOutputMax="0.8" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="11" translation="linear" translationOutputMin="-0.8" translationOutputMax="0.8" />
+    </lfo>
+    <lfo shape="sine" frequency="8" modAmount="0.00">
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="4"  translation="linear" translationOutputMin="-0.7" translationOutputMax="0.7" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="5"  translation="linear" translationOutputMin="-0.7" translationOutputMax="0.7" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="6"  translation="linear" translationOutputMin="-0.7" translationOutputMax="0.7" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="7"  translation="linear" translationOutputMin="-0.7" translationOutputMax="0.7" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="12" translation="linear" translationOutputMin="-0.9" translationOutputMax="0.9" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="13" translation="linear" translationOutputMin="-0.9" translationOutputMax="0.9" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="14" translation="linear" translationOutputMin="-0.9" translationOutputMax="0.9" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="15" translation="linear" translationOutputMin="-0.9" translationOutputMax="0.9" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="16" translation="linear" translationOutputMin="-1.0" translationOutputMax="1.0" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="17" translation="linear" translationOutputMin="-1.0" translationOutputMax="1.0" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="18" translation="linear" translationOutputMin="-1.0" translationOutputMax="1.0" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="19" translation="linear" translationOutputMin="-1.0" translationOutputMax="1.0" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="20" translation="linear" translationOutputMin="-1.1" translationOutputMax="1.1" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="21" translation="linear" translationOutputMin="-1.1" translationOutputMax="1.1" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="22" translation="linear" translationOutputMin="-1.1" translationOutputMax="1.1" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="23" translation="linear" translationOutputMin="-1.1" translationOutputMax="1.1" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="24" translation="linear" translationOutputMin="-1.2" translationOutputMax="1.2" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="25" translation="linear" translationOutputMin="-1.2" translationOutputMax="1.2" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="26" translation="linear" translationOutputMin="-1.2" translationOutputMax="1.2" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="27" translation="linear" translationOutputMin="-1.2" translationOutputMax="1.2" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="28" translation="linear" translationOutputMin="-1.3" translationOutputMax="1.3" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="29" translation="linear" translationOutputMin="-1.3" translationOutputMax="1.3" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="30" translation="linear" translationOutputMin="-1.3" translationOutputMax="1.3" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="31" translation="linear" translationOutputMin="-1.3" translationOutputMax="1.3" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="32" translation="linear" translationOutputMin="-1.4" translationOutputMax="1.4" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="33" translation="linear" translationOutputMin="-1.4" translationOutputMax="1.4" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="34" translation="linear" translationOutputMin="-1.4" translationOutputMax="1.4" />
+      <binding type="amp" level="group" parameter="GROUP_TUNING" groupIndex="35" translation="linear" translationOutputMin="-1.4" translationOutputMax="1.4" />
     </lfo>
   </modulators>
 </DecentSampler>
