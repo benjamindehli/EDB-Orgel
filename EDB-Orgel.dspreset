@@ -4932,7 +4932,7 @@
     <!-- Speaker -->
     <effect type="convolution" irFile="IR/BPF.wav" mix="0.0" enabled="false" />
     <effect type="gain" level="0" enabled="false" />
-    <effect type="chorus" mix="0" modDepth="0.09" modRate="0.41"/>
+    <effect type="chorus" mix="0" modDepth="0.09" modRate="0.41" enabled="false" />
     <effect type="convolution" irFile="IR/speaker.wav" mix="0.0" enabled="false" />
     <effect type="gain" level="0" enabled="false" />
   </effects>
