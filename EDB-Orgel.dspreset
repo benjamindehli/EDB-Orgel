@@ -589,43 +589,43 @@
       </control>
 
       <!-- Modulation 1 -->
-      <control x="744" y="94" width="48" height="24" parameterName="Attack 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
+      <control x="744" y="94" width="48" height="24" parameterName="Attack 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Envelope attack time for 1' drawbar">
         <binding type="amp" level="group" position="32" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="33" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="34" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
         <binding type="amp" level="group" position="35" parameter="ENV_ATTACK" translation="linear" translationOutputMin="0" translationOutputMax="2" />
       </control>
-      <control x="744" y="118" width="48" height="24" parameterName="Decay 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
+      <control x="744" y="118" width="48" height="24" parameterName="Decay 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="15" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Envelope decay time for 1' drawbar">
         <binding type="amp" level="group" position="32" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="33" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="34" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="35" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
       </control>
-      <control x="744" y="142" width="48" height="24" parameterName="Sustain 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
+      <control x="744" y="142" width="48" height="24" parameterName="Sustain 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Envelope sustain level for 1' drawbar">
         <binding type="amp" level="group" position="32" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="33" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="34" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="35" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="744" y="166" width="48" height="24" parameterName="Release 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
+      <control x="744" y="166" width="48" height="24" parameterName="Release 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Envelope release time for 1' drawbar">
         <binding type="amp" level="group" position="32" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="33" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="34" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="35" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
       </control>
-      <control x="744" y="214" width="48" height="24" parameterName="Tremolo speed 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
+      <control x="744" y="214" width="48" height="24" parameterName="Tremolo speed 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo speed for 1' drawbar">
         <binding type="modulator" level="instrument" position="8" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="8" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="8" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
         <binding type="modulator" level="instrument" position="8" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
-      <control x="744" y="238" width="48" height="24" parameterName="Tremolo depth 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
+      <control x="744" y="238" width="48" height="24" parameterName="Tremolo depth 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo depth for 1' drawbar">
         <binding type="modulator" level="instrument" position="8" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="8" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="8" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="8" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="744" y="286" width="48" height="24" parameterName="Velocity sensitivity 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false">
+      <control x="744" y="286" width="48" height="24" parameterName="Velocity sensitivity 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Velocity sensitivity for 1' drawbar">
         <binding type="amp" level="group" position="32" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="33" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="34" parameter="AMP_VEL_TRACK" translation="linear" translationOutputMin="0" translationOutputMax="1" />
@@ -634,7 +634,7 @@
 
 
       <!-- Sound source 16 -->
-      <button x="168" y="358" width="48" height="24" style="image" value="0">
+      <button x="168" y="358" width="48" height="24" style="image" value="0" tooltip="Sound source for 16' drawbar">
         <state name="64 16" mainImage="Resources/button-64.png" hoverImage="Resources/button-64_hover.png" clickImage="Resources/button-pd_hover.png">
           <binding type="general" level="group" position="0" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="general" level="group" position="1" parameter="ENABLED" translation="fixed_value" translationValue="false" />
@@ -662,7 +662,7 @@
       </button>
 
       <!-- Sound source 5 1/3 -->
-      <button x="240" y="358" width="48" height="24" style="image" value="0">
+      <button x="240" y="358" width="48" height="24" style="image" value="0" tooltip="Sound source for 5 1/3' drawbar">
         <state name="64 5_1-3" mainImage="Resources/button-64.png" hoverImage="Resources/button-64_hover.png" clickImage="Resources/button-pd_hover.png">
           <binding type="general" level="group" position="4" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="general" level="group" position="5" parameter="ENABLED" translation="fixed_value" translationValue="false" />
@@ -690,7 +690,7 @@
       </button>
 
       <!-- Sound source 8 -->
-      <button x="312" y="358" width="48" height="24" style="image" value="0">
+      <button x="312" y="358" width="48" height="24" style="image" value="0" tooltip="Sound source for 8' drawbar">
         <state name="64 8" mainImage="Resources/button-64.png" hoverImage="Resources/button-64_hover.png" clickImage="Resources/button-pd_hover.png">
           <binding type="general" level="group" position="8" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="general" level="group" position="9" parameter="ENABLED" translation="fixed_value" translationValue="false" />
@@ -718,7 +718,7 @@
       </button>
 
       <!-- Sound source 4 -->
-      <button x="384" y="358" width="48" height="24" style="image" value="0">
+      <button x="384" y="358" width="48" height="24" style="image" value="0" tooltip="Sound source for 4' drawbar">
         <state name="64 4" mainImage="Resources/button-64.png" hoverImage="Resources/button-64_hover.png" clickImage="Resources/button-pd_hover.png">
           <binding type="general" level="group" position="12" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="general" level="group" position="13" parameter="ENABLED" translation="fixed_value" translationValue="false" />
@@ -746,7 +746,7 @@
       </button>
 
       <!-- Sound source 2 2/3 -->
-      <button x="456" y="358" width="48" height="24" style="image" value="0">
+      <button x="456" y="358" width="48" height="24" style="image" value="0" tooltip="Sound source for 2 2/3' drawbar">
         <state name="64 2_2-3" mainImage="Resources/button-64.png" hoverImage="Resources/button-64_hover.png" clickImage="Resources/button-pd_hover.png">
           <binding type="general" level="group" position="16" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="general" level="group" position="17" parameter="ENABLED" translation="fixed_value" translationValue="false" />
@@ -774,7 +774,7 @@
       </button>
 
       <!-- Sound source 2 -->
-      <button x="528" y="358" width="48" height="24" style="image" value="0">
+      <button x="528" y="358" width="48" height="24" style="image" value="0" tooltip="Sound source for 2' drawbar">
         <state name="64 2" mainImage="Resources/button-64.png" hoverImage="Resources/button-64_hover.png" clickImage="Resources/button-pd_hover.png">
           <binding type="general" level="group" position="20" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="general" level="group" position="21" parameter="ENABLED" translation="fixed_value" translationValue="false" />
@@ -802,7 +802,7 @@
       </button>
 
       <!-- Sound source 1 3/5 -->
-      <button x="600" y="358" width="48" height="24" style="image" value="0">
+      <button x="600" y="358" width="48" height="24" style="image" value="0" tooltip="Sound source for 1 3/5' drawbar">
         <state name="64 1_3-5" mainImage="Resources/button-64.png" hoverImage="Resources/button-64_hover.png" clickImage="Resources/button-pd_hover.png">
           <binding type="general" level="group" position="24" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="general" level="group" position="25" parameter="ENABLED" translation="fixed_value" translationValue="false" />
@@ -830,7 +830,7 @@
       </button>
 
       <!-- Sound source 1 1/3 -->
-      <button x="672" y="358" width="48" height="24" style="image" value="0">
+      <button x="672" y="358" width="48" height="24" style="image" value="0" tooltip="Sound source for 1 1/3' drawbar">
         <state name="64 1_1-3" mainImage="Resources/button-64.png" hoverImage="Resources/button-64_hover.png" clickImage="Resources/button-pd_hover.png">
           <binding type="general" level="group" position="28" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="general" level="group" position="29" parameter="ENABLED" translation="fixed_value" translationValue="false" />
@@ -858,7 +858,7 @@
       </button>
 
       <!-- Sound source 1 -->
-      <button x="744" y="358" width="48" height="24" style="image" value="0">
+      <button x="744" y="358" width="48" height="24" style="image" value="0" tooltip="Sound source for 1' drawbar">
         <state name="64 1" mainImage="Resources/button-64.png" hoverImage="Resources/button-64_hover.png" clickImage="Resources/button-pd_hover.png">
           <binding type="general" level="group" position="32" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="general" level="group" position="33" parameter="ENABLED" translation="fixed_value" translationValue="false" />
@@ -886,7 +886,7 @@
       </button>
 
       <!-- Filter -->
-      <button x="816" y="262" width="72" height="24" style="image" value="0">
+      <button x="816" y="262" width="72" height="24" style="image" value="0" tooltip="Toggle filter types">
         <state name="OFF" mainImage="Resources/button-off.png" hoverImage="Resources/button-off_hover.png" clickImage="Resources/button-lpf_hover.png">
           <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="false" />
           <binding type="effect" level="instrument" position="0" parameter="FX_MIX" translation="fixed_value" translationValue="0" />
@@ -946,7 +946,7 @@
       </button>
 
       <!-- Presets -->
-      <button x="816" y="94" width="72" height="72" style="image" value="1">
+      <button x="816" y="94" width="72" height="72" style="image" value="1" tooltip="Load patch">
         <state name="pre" mainImage="Resources/button-load.png" hoverImage="Resources/button-load_hover.png" clickImage="Resources/button-load_click.png">
           <binding type="control" level="ui" controlIndex="88" parameter="VALUE" translation="fixed_value" translationValue="0" />
         </state>
@@ -1741,7 +1741,7 @@
           <binding type="control" level="ui" controlIndex="90" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Vibrato                    |   0-99  |                                          -->
         </option>
       </menu>
-      <button x="516" y="247" width="132" height="39" style="image" value="1">
+      <button x="516" y="247" width="132" height="39" style="image" value="1" tooltip="Close patch dialog">
         <state name="open" mainImage="Resources/button-close.png" hoverImage="Resources/button-close_hover.png" clickImage="Resources/button-close_click.png">
           <binding type="control" level="ui" controlIndex="85" parameter="VALUE" translation="fixed_value" translationValue="0" />
           <binding type="control" level="ui" controlIndex="86" parameter="VISIBLE" translation="fixed_value" translationValue="true" />
@@ -1757,7 +1757,7 @@
       </button>
 
       <!-- Channels -->
-      <button x="816" y="358" width="72" height="24" style="image" value="0">
+      <button x="816" y="358" width="72" height="24" style="image" value="0" tooltip="Toggle between mono and stereo output">
         <state name="Mono" mainImage="Resources/button-mono.png" hoverImage="Resources/button-mono_hover.png" clickImage="Resources/button-stereo.png">
           <binding type="effect" level="instrument" effectIndex="2" parameter="ENABLED" translation="fixed_value" translationValue="false" />
           <binding type="effect" level="instrument" position="2" parameter="FX_MIX" translation="fixed_value" translationValue="0" />
