@@ -3,11 +3,14 @@
 <DecentSampler>
     <ui bgImage="Resources/background.png" width="960" height="600">
     <keyboard>
+      <!-- Commented out until bug in DecentSampler is fixed
       <color loNote="0"  hiNote="4"   color="FF000000" />
-      <color loNote="5"  hiNote="5"   color="FF6D0E00" /> <!-- #894E43 -->
-      <color loNote="7"  hiNote="7"   color="FFC7D44F" /> <!-- #D7DE88 -->
-      <color loNote="9"  hiNote="9"   color="FF5BB2BA" /> <!-- #92C3CA -->
-      <color loNote="11" hiNote="11"  color="FF5E4DD3" /> <!-- #837DD7 -->
+      <color loNote="5"  hiNote="5"   color="FF6D0E00" />  #894E43
+      <color loNote="7"  hiNote="7"   color="FFC7D44F" />  #D7DE88
+      <color loNote="9"  hiNote="9"   color="FF5BB2BA" />  #92C3CA
+      <color loNote="11" hiNote="11"  color="FF5E4DD3" />  #837DD7
+      -->
+      <color loNote="0"  hiNote="11"   color="FF000000" />
       <color loNote="12" hiNote="96"  color="FFFFFFFF" />
       <color loNote="97" hiNote="127" color="FF000000" />
     </keyboard>
@@ -5023,6 +5026,7 @@
     <effect type="gain" level="0" enabled="false" />
   </effects>
   <midi>
+    <!-- Commented out until bug in DecentSampler is fixed
     <note note="5" enabled="true">
       <binding level="ui" type="control" position="75" parameter="VALUE" translation="fixed_value" translationValue="0" />
       <binding level="ui" type="control" position="76" parameter="VALUE" translation="fixed_value" translationValue="0" />
@@ -5067,6 +5071,7 @@
       <binding level="ui" type="control" position="82" parameter="VALUE" translation="fixed_value" translationValue="3" />
       <binding level="ui" type="control" position="83" parameter="VALUE" translation="fixed_value" translationValue="3" />
     </note>
+    -->
     <cc number="1">
       <binding type="control" level="ui" controlIndex="90" parameter="VALUE" translation="linear" translationOutputMin="0" translationOutputMax="99" />
     </cc>
