@@ -1,6 +1,6 @@
 # EDB-Orgel - Version [1.0]
 
-Date: TBA
+Date: 2024-08-08
 
 Name: Benjamin Dehli
 
@@ -10,9 +10,15 @@ Profile: [dehlimusikk.gumroad.com][Gumroad profile]
 
 - Decent Sampler
 
+## Release notes
+
+### Version 1.0 (2024-08-08)
+
+- First version released
+
 ## Description
 
-The EDB-Orgel instrument offers a unique and versatile sound creation experience. By utilizing the nine drawbars, you can shape the timbre of the organ with precision, controlling the amplitude of specific harmonic overtones. In addition, the instrument combines the sound of four different synthesis types: phase distortion synthesis, frequency modulation synthesis, linear arithmetic synthesis, and the iconic 6581 SID chip. This combination allows for endless possibilities in creating rich and expressive sounds.
+EDB-Orgel delivers the sound of 4 different digital synthesis types with the workflow of a drawbar organ combined with an analog synthesizer.
 
 ## Technical specification
 
