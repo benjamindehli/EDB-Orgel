@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<DecentSampler>
+<DecentSampler minVersion="1.11.17">
     <ui bgImage="Resources/background.png" width="960" height="600">
     <keyboard>
       <!-- Commented out until bug in DecentSampler is fixed
