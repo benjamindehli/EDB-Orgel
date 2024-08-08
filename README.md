@@ -18,7 +18,7 @@ Profile: [dehlimusikk.gumroad.com][Gumroad profile]
 
 ## Description
 
-EDB-Orgel delivers the sound of 4 different digital synthesis types with the workflow of a drawbar organ combined with an analog synthesizer.
+EDB-Orgel delivers the sound of four different digital synthesis types with the workflow of a drawbar organ combined with an analog synthesizer.
 
 ## Technical specification
 
@@ -77,13 +77,13 @@ Unleash the power of the nine drawbars to shape your organ's tone with precision
 
 Shape your sound precisely with the Attack, Decay, Sustain, and Release parameters. Whether you desire a punchy, staccato tone or a smooth, lingering ambiance, the ADSR envelope allows you to tailor the dynamics to your liking.
 
-- Attack (ATT)
+- ATT (attack)
   - Individual attack time of the amplitude envelope for each drawbar
-- Decay (DEC)
+- DEC (decay)
   - Individual decay time of the amplitude envelope for each drawbar
-- Sustain (SUS)
+- SUS (sustain)
   - Individual sustain level of the amplitude envelope for each drawbar
-- Release (REL)
+- REL (release)
   - Individual release time of the amplitude envelope for each drawbar
 
 ### Tremolo
@@ -94,9 +94,9 @@ Shape your sound precisely with the Attack, Decay, Sustain, and Release paramete
 
 The speed (SPD) and depth (DPT) controls enable you to modulate the amplitude of the drawbars with the desired speed and depth using the Low-Frequency Oscillator (LFO).
 
-- Speed (SPD)
+- SPD (speed)
   - Tremolo speed determines the speed at which the modulation occurs
-- Depth (DPT)
+- DPT (depth)
   - Adjust tremolo depth to introduce subtle or pronounced variations in volume
 
 ### Velocity sensitivity
@@ -105,7 +105,7 @@ The speed (SPD) and depth (DPT) controls enable you to modulate the amplitude of
 |:--:|
 |Controls for the velocity sensitivity in the modulation tab|
 
-- Velocity sensitivity (VEL): Determines whether the velocity should affect the volume of the drawbar
+- VEL (velocity sensitivity): Determines whether the velocity should affect the volume of the drawbar
 
 ### Filters
 
@@ -141,8 +141,8 @@ EDB-Orgel features the different filter types you get from the SID chip. These a
 |:--:|
 |Buttons for toggling between mono and stereo|
 
-- Mono (single speaker): Stereo effect is disabled
-- Stereo (two speakers): Stereo effect is enabled
+- 1 speaker (mono): Stereo effect is disabled
+- 2 speakers (stereo): Stereo effect is enabled
 
 ## Equipment used
 
