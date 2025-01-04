@@ -4,7 +4,7 @@ Date: 2024-08-08
 
 Name: Benjamin Dehli
 
-Profile: [dehlimusikk.gumroad.com][Gumroad profile]
+Profile: [store.dehlimusikk.no][Gumroad profile]
 
 ## Included formats
 
@@ -153,7 +153,7 @@ EDB-Orgel features the different filter types you get from the SID chip. These a
 |          [Yamaha DX7][Yamaha DX7]          |          ![Yamaha DX7](/Equipment/yamaha-dx7.jpg)          |
 |         [Roland D-50][Roland D-50]         |         ![Roland D-50](/Equipment/roland-d-50.jpg)         |
 
-[Gumroad profile]: https://dehlimusikk.gumroad.com/
+[Gumroad profile]: https://store.dehlimusikk.no/
 [Elektron SidStation]: https://www.dehlimusikk.no/equipment/instruments/elektron-sidstation/
 [Casio CZ-101]: https://www.dehlimusikk.no/equipment/instruments/casio-cz-101/
 [Yamaha DX7]: https://www.dehlimusikk.no/equipment/instruments/yamaha-dx7/
