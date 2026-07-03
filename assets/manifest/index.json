@@ -2,6 +2,7 @@
   "schema": 1,
   "format": "dmse-manifest",
   "library": "EDB-Orgel",
+  "gainDb": -11.0,
   "modes": [
     "edb-orgel"
   ]
