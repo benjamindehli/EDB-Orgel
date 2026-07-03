@@ -49819,6 +49819,7 @@
     "background": "img:background",
     "width": 960,
     "height": 600,
+    "cropTop": 28,
     "tabs": [
       {
         "name": "main",
