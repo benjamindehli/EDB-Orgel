@@ -1,0 +1,9 @@
+{
+    "gain": -11,
+    "normalizeIr": false,
+    "reverbGain": -11,
+    "cropTop": { "default": 28 },
+    "keyboardColors": {
+        "EDB-Orgel": [{ "loNote": 12, "hiNote": 96, "color": "none" }]
+    }
+}
