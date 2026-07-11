@@ -51456,7 +51456,7 @@
             "valueType": "float",
             "min": 0.0,
             "max": 127.0,
-            "value": 127.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -51464,7 +51464,7 @@
               "numFrames": 65,
               "orientation": "vertical"
             },
-            "mouseDragSensitivity": 170.0,
+            "mouseDragSensitivity": -170.0,
             "controlIndex": 3,
             "bindings": [
               {
@@ -51474,8 +51474,8 @@
                 "translationReversed": true,
                 "parameter": "AMP_VOLUME",
                 "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0
               }
             ]
           },
@@ -51487,11 +51487,11 @@
               "width": 48,
               "height": 216
             },
-            "label": "Drawbar 1 1/3",
+            "label": "Drawbar 5 1/3",
             "valueType": "float",
             "min": 0.0,
             "max": 127.0,
-            "value": 127.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -51499,7 +51499,7 @@
               "numFrames": 65,
               "orientation": "vertical"
             },
-            "mouseDragSensitivity": 170.0,
+            "mouseDragSensitivity": -170.0,
             "controlIndex": 4,
             "bindings": [
               {
@@ -51509,8 +51509,8 @@
                 "translationReversed": true,
                 "parameter": "AMP_VOLUME",
                 "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0
               }
             ]
           },
@@ -51526,7 +51526,7 @@
             "valueType": "float",
             "min": 0.0,
             "max": 127.0,
-            "value": 0.0,
+            "value": 127.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -51534,7 +51534,7 @@
               "numFrames": 65,
               "orientation": "vertical"
             },
-            "mouseDragSensitivity": 170.0,
+            "mouseDragSensitivity": -170.0,
             "controlIndex": 5,
             "bindings": [
               {
@@ -51544,8 +51544,8 @@
                 "translationReversed": true,
                 "parameter": "AMP_VOLUME",
                 "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0
               }
             ]
           },
@@ -51561,7 +51561,7 @@
             "valueType": "float",
             "min": 0.0,
             "max": 127.0,
-            "value": 0.0,
+            "value": 127.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -51569,7 +51569,7 @@
               "numFrames": 65,
               "orientation": "vertical"
             },
-            "mouseDragSensitivity": 170.0,
+            "mouseDragSensitivity": -170.0,
             "controlIndex": 6,
             "bindings": [
               {
@@ -51579,8 +51579,8 @@
                 "translationReversed": true,
                 "parameter": "AMP_VOLUME",
                 "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0
               }
             ]
           },
@@ -51596,7 +51596,7 @@
             "valueType": "float",
             "min": 0.0,
             "max": 127.0,
-            "value": 127.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -51604,7 +51604,7 @@
               "numFrames": 65,
               "orientation": "vertical"
             },
-            "mouseDragSensitivity": 170.0,
+            "mouseDragSensitivity": -170.0,
             "controlIndex": 7,
             "bindings": [
               {
@@ -51614,8 +51614,8 @@
                 "translationReversed": true,
                 "parameter": "AMP_VOLUME",
                 "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0
               }
             ]
           },
@@ -51631,7 +51631,7 @@
             "valueType": "float",
             "min": 0.0,
             "max": 127.0,
-            "value": 127.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -51639,7 +51639,7 @@
               "numFrames": 65,
               "orientation": "vertical"
             },
-            "mouseDragSensitivity": 170.0,
+            "mouseDragSensitivity": -170.0,
             "controlIndex": 8,
             "bindings": [
               {
@@ -51649,8 +51649,8 @@
                 "translationReversed": true,
                 "parameter": "AMP_VOLUME",
                 "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0
               }
             ]
           },
@@ -51666,7 +51666,7 @@
             "valueType": "float",
             "min": 0.0,
             "max": 127.0,
-            "value": 127.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -51674,7 +51674,7 @@
               "numFrames": 65,
               "orientation": "vertical"
             },
-            "mouseDragSensitivity": 170.0,
+            "mouseDragSensitivity": -170.0,
             "controlIndex": 9,
             "bindings": [
               {
@@ -51684,8 +51684,8 @@
                 "translationReversed": true,
                 "parameter": "AMP_VOLUME",
                 "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0
               }
             ]
           },
@@ -51697,11 +51697,11 @@
               "width": 48,
               "height": 216
             },
-            "label": "Drawbar 1 1/3 (2)",
+            "label": "Drawbar 1 1/3",
             "valueType": "float",
             "min": 0.0,
             "max": 127.0,
-            "value": 127.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -51709,7 +51709,7 @@
               "numFrames": 65,
               "orientation": "vertical"
             },
-            "mouseDragSensitivity": 170.0,
+            "mouseDragSensitivity": -170.0,
             "controlIndex": 10,
             "bindings": [
               {
@@ -51719,8 +51719,8 @@
                 "translationReversed": true,
                 "parameter": "AMP_VOLUME",
                 "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0
               }
             ]
           },
@@ -51736,7 +51736,7 @@
             "valueType": "float",
             "min": 0.0,
             "max": 127.0,
-            "value": 127.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -51744,7 +51744,7 @@
               "numFrames": 65,
               "orientation": "vertical"
             },
-            "mouseDragSensitivity": 170.0,
+            "mouseDragSensitivity": -170.0,
             "controlIndex": 11,
             "bindings": [
               {
@@ -51754,8 +51754,8 @@
                 "translationReversed": true,
                 "parameter": "AMP_VOLUME",
                 "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0
               }
             ]
           },
@@ -52072,36 +52072,6 @@
                 "translationOutputMin": 0.0,
                 "translationOutputMax": 9.0,
                 "position": 0
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_0",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 0
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_0",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 0
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_0",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 0
               }
             ]
           },
@@ -52129,36 +52099,6 @@
             "controlIndex": 17,
             "visible": false,
             "bindings": [
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_0",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 0
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_0",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 0
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_0",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 0
-              },
               {
                 "type": "modulator",
                 "level": "instrument",
@@ -52554,36 +52494,6 @@
                 "translationOutputMin": 0.0,
                 "translationOutputMax": 9.0,
                 "position": 1
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_1",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 1
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_1",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 1
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_1",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 1
               }
             ]
           },
@@ -52611,36 +52521,6 @@
             "controlIndex": 24,
             "visible": false,
             "bindings": [
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_1",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 1
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_1",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 1
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_1",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 1
-              },
               {
                 "type": "modulator",
                 "level": "instrument",
@@ -53036,36 +52916,6 @@
                 "translationOutputMin": 0.0,
                 "translationOutputMax": 9.0,
                 "position": 2
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_2",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 2
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_2",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 2
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_2",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 2
               }
             ]
           },
@@ -53093,36 +52943,6 @@
             "controlIndex": 31,
             "visible": false,
             "bindings": [
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_2",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 2
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_2",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 2
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_2",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 2
-              },
               {
                 "type": "modulator",
                 "level": "instrument",
@@ -53518,36 +53338,6 @@
                 "translationOutputMin": 0.0,
                 "translationOutputMax": 9.0,
                 "position": 3
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_3",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 3
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_3",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 3
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_3",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 3
               }
             ]
           },
@@ -53575,36 +53365,6 @@
             "controlIndex": 38,
             "visible": false,
             "bindings": [
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_3",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 3
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_3",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 3
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_3",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 3
-              },
               {
                 "type": "modulator",
                 "level": "instrument",
@@ -54000,36 +53760,6 @@
                 "translationOutputMin": 0.0,
                 "translationOutputMax": 9.0,
                 "position": 4
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_4",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 4
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_4",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 4
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_4",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 4
               }
             ]
           },
@@ -54057,36 +53787,6 @@
             "controlIndex": 45,
             "visible": false,
             "bindings": [
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_4",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 4
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_4",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 4
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_4",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 4
-              },
               {
                 "type": "modulator",
                 "level": "instrument",
@@ -54482,36 +54182,6 @@
                 "translationOutputMin": 0.0,
                 "translationOutputMax": 9.0,
                 "position": 5
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_5",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 5
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_5",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 5
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_5",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 5
               }
             ]
           },
@@ -54539,36 +54209,6 @@
             "controlIndex": 52,
             "visible": false,
             "bindings": [
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_5",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 5
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_5",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 5
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_5",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 5
-              },
               {
                 "type": "modulator",
                 "level": "instrument",
@@ -54964,36 +54604,6 @@
                 "translationOutputMin": 0.0,
                 "translationOutputMax": 9.0,
                 "position": 6
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_6",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 6
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_6",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 6
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_6",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 6
               }
             ]
           },
@@ -55021,36 +54631,6 @@
             "controlIndex": 59,
             "visible": false,
             "bindings": [
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_6",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 6
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_6",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 6
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_6",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 6
-              },
               {
                 "type": "modulator",
                 "level": "instrument",
@@ -55446,36 +55026,6 @@
                 "translationOutputMin": 0.0,
                 "translationOutputMax": 9.0,
                 "position": 7
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_7",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 7
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_7",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 7
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_7",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 7
               }
             ]
           },
@@ -55503,36 +55053,6 @@
             "controlIndex": 66,
             "visible": false,
             "bindings": [
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_7",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 7
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_7",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 7
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_7",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 7
-              },
               {
                 "type": "modulator",
                 "level": "instrument",
@@ -55928,36 +55448,6 @@
                 "translationOutputMin": 0.0,
                 "translationOutputMax": 9.0,
                 "position": 8
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_8",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 8
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_8",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 8
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_8",
-                "parameter": "FREQUENCY",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 8
               }
             ]
           },
@@ -55985,36 +55475,6 @@
             "controlIndex": 73,
             "visible": false,
             "bindings": [
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_8",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 8
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_8",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 8
-              },
-              {
-                "type": "modulator",
-                "level": "instrument",
-                "targetId": "mod_8",
-                "parameter": "MOD_AMOUNT",
-                "translation": "linear",
-                "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 8
-              },
               {
                 "type": "modulator",
                 "level": "instrument",
@@ -56105,7 +55565,7 @@
               "width": 0,
               "height": 0
             },
-            "label": "Velocity sensitivity 1 (2)",
+            "label": "Vibrato",
             "valueType": "float",
             "min": 0.0,
             "max": 99.0,
@@ -59481,15 +58941,6 @@
                     "type": "effect",
                     "level": "instrument",
                     "targetId": "fx_gain",
-                    "parameter": "LEVEL",
-                    "translation": "fixed_value",
-                    "effectIndex": 1,
-                    "translationValue": "3"
-                  },
-                  {
-                    "type": "effect",
-                    "level": "instrument",
-                    "targetId": "fx_gain",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
                     "effectIndex": 1,
@@ -60162,7 +59613,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 3,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -60171,7 +59622,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 4,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -60180,7 +59631,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 5,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -60189,7 +59640,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 6,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -60198,7 +59649,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 7,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -60207,7 +59658,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 8,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -60216,7 +59667,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 9,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -60225,7 +59676,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 10,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -60234,7 +59685,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 11,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -60933,7 +60384,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 3,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -60942,7 +60393,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 4,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -60951,7 +60402,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 5,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -60960,7 +60411,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 6,
-                    "translationValue": "120"
+                    "translationValue": "7"
                   },
                   {
                     "type": "control",
@@ -60969,7 +60420,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 7,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -60978,7 +60429,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 8,
-                    "translationValue": "125"
+                    "translationValue": "2"
                   },
                   {
                     "type": "control",
@@ -60987,7 +60438,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 9,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -60996,7 +60447,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 10,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -61005,7 +60456,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 11,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -61704,7 +61155,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 3,
-                    "translationValue": "62"
+                    "translationValue": "65"
                   },
                   {
                     "type": "control",
@@ -61713,7 +61164,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 4,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -61722,7 +61173,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 5,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -61731,7 +61182,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 6,
-                    "translationValue": "85"
+                    "translationValue": "42"
                   },
                   {
                     "type": "control",
@@ -61740,7 +61191,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 7,
-                    "translationValue": "115"
+                    "translationValue": "12"
                   },
                   {
                     "type": "control",
@@ -61749,7 +61200,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 8,
-                    "translationValue": "122"
+                    "translationValue": "5"
                   },
                   {
                     "type": "control",
@@ -61758,7 +61209,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 9,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -61767,7 +61218,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 10,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -61776,7 +61227,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 11,
-                    "translationValue": "124"
+                    "translationValue": "3"
                   },
                   {
                     "type": "control",
@@ -62475,7 +61926,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 3,
-                    "translationValue": "76"
+                    "translationValue": "51"
                   },
                   {
                     "type": "control",
@@ -62484,7 +61935,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 4,
-                    "translationValue": "69"
+                    "translationValue": "58"
                   },
                   {
                     "type": "control",
@@ -62493,7 +61944,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 5,
-                    "translationValue": "97"
+                    "translationValue": "30"
                   },
                   {
                     "type": "control",
@@ -62502,7 +61953,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 6,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -62511,7 +61962,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 7,
-                    "translationValue": "106"
+                    "translationValue": "21"
                   },
                   {
                     "type": "control",
@@ -62520,7 +61971,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 8,
-                    "translationValue": "6"
+                    "translationValue": "121"
                   },
                   {
                     "type": "control",
@@ -62529,7 +61980,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 9,
-                    "translationValue": "12"
+                    "translationValue": "115"
                   },
                   {
                     "type": "control",
@@ -62538,7 +61989,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 10,
-                    "translationValue": "3"
+                    "translationValue": "124"
                   },
                   {
                     "type": "control",
@@ -62547,7 +61998,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 11,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -63246,7 +62697,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 3,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -63255,7 +62706,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 4,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -63264,7 +62715,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 5,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -63273,7 +62724,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 6,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -63282,7 +62733,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 7,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -63291,7 +62742,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 8,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -63300,7 +62751,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 9,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -63309,7 +62760,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 10,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -63318,7 +62769,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 11,
-                    "translationValue": "127"
+                    "translationValue": "0"
                   },
                   {
                     "type": "control",
@@ -64017,7 +63468,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 3,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -64026,7 +63477,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 4,
-                    "translationValue": "72"
+                    "translationValue": "55"
                   },
                   {
                     "type": "control",
@@ -64035,7 +63486,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 5,
-                    "translationValue": "41"
+                    "translationValue": "86"
                   },
                   {
                     "type": "control",
@@ -64044,7 +63495,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 6,
-                    "translationValue": "84"
+                    "translationValue": "43"
                   },
                   {
                     "type": "control",
@@ -64053,7 +63504,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 7,
-                    "translationValue": "94"
+                    "translationValue": "33"
                   },
                   {
                     "type": "control",
@@ -64062,7 +63513,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 8,
-                    "translationValue": "83"
+                    "translationValue": "44"
                   },
                   {
                     "type": "control",
@@ -64071,7 +63522,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 9,
-                    "translationValue": "103"
+                    "translationValue": "24"
                   },
                   {
                     "type": "control",
@@ -64080,7 +63531,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 10,
-                    "translationValue": "101"
+                    "translationValue": "26"
                   },
                   {
                     "type": "control",
@@ -64089,7 +63540,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 11,
-                    "translationValue": "40"
+                    "translationValue": "87"
                   },
                   {
                     "type": "control",
@@ -64788,7 +64239,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 3,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -64797,7 +64248,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 4,
-                    "translationValue": "104"
+                    "translationValue": "23"
                   },
                   {
                     "type": "control",
@@ -64806,7 +64257,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 5,
-                    "translationValue": "72"
+                    "translationValue": "55"
                   },
                   {
                     "type": "control",
@@ -64815,7 +64266,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 6,
-                    "translationValue": "105"
+                    "translationValue": "22"
                   },
                   {
                     "type": "control",
@@ -64824,7 +64275,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 7,
-                    "translationValue": "118"
+                    "translationValue": "9"
                   },
                   {
                     "type": "control",
@@ -64833,7 +64284,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 8,
-                    "translationValue": "121"
+                    "translationValue": "6"
                   },
                   {
                     "type": "control",
@@ -64842,7 +64293,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 9,
-                    "translationValue": "119"
+                    "translationValue": "8"
                   },
                   {
                     "type": "control",
@@ -64851,7 +64302,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 10,
-                    "translationValue": "118"
+                    "translationValue": "9"
                   },
                   {
                     "type": "control",
@@ -64860,7 +64311,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 11,
-                    "translationValue": "123"
+                    "translationValue": "4"
                   },
                   {
                     "type": "control",
@@ -65559,7 +65010,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 3,
-                    "translationValue": "88"
+                    "translationValue": "39"
                   },
                   {
                     "type": "control",
@@ -65568,7 +65019,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 4,
-                    "translationValue": "94"
+                    "translationValue": "33"
                   },
                   {
                     "type": "control",
@@ -65577,7 +65028,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 5,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -65586,7 +65037,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 6,
-                    "translationValue": "84"
+                    "translationValue": "43"
                   },
                   {
                     "type": "control",
@@ -65595,7 +65046,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 7,
-                    "translationValue": "95"
+                    "translationValue": "32"
                   },
                   {
                     "type": "control",
@@ -65604,7 +65055,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 8,
-                    "translationValue": "56"
+                    "translationValue": "71"
                   },
                   {
                     "type": "control",
@@ -65613,7 +65064,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 9,
-                    "translationValue": "81"
+                    "translationValue": "46"
                   },
                   {
                     "type": "control",
@@ -65622,7 +65073,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 10,
-                    "translationValue": "32"
+                    "translationValue": "95"
                   },
                   {
                     "type": "control",
@@ -65631,7 +65082,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 11,
-                    "translationValue": "116"
+                    "translationValue": "11"
                   },
                   {
                     "type": "control",
@@ -66330,7 +65781,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 3,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -66339,7 +65790,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 4,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -66348,7 +65799,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 5,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -66357,7 +65808,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 6,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -66366,7 +65817,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 7,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -66375,7 +65826,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 8,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -66384,7 +65835,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 9,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -66393,7 +65844,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 10,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -66402,7 +65853,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 11,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -67101,7 +66552,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 3,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -67110,7 +66561,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 4,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -67119,7 +66570,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 5,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -67128,7 +66579,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 6,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -67137,7 +66588,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 7,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -67146,7 +66597,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 8,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -67155,7 +66606,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 9,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -67164,7 +66615,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 10,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
@@ -67173,7 +66624,7 @@
                     "parameter": "VALUE",
                     "translation": "fixed_value",
                     "controlIndex": 11,
-                    "translationValue": "0"
+                    "translationValue": "127"
                   },
                   {
                     "type": "control",
