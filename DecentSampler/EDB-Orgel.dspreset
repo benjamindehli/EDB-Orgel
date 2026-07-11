@@ -245,13 +245,13 @@
         <binding type="amp" level="group" position="2" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
         <binding type="amp" level="group" position="3" parameter="ENV_DECAY" translation="linear" translationOutputMin="0.02" translationOutputMax="3" />
       </control>
-      <control x="168" y="142" width="48" height="24" parameterName="Sustain 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Envelope attack time for 16' drawbar">
+      <control x="168" y="142" width="48" height="24" parameterName="Sustain 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="99" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Envelope sustain level for 16' drawbar">
         <binding type="amp" level="group" position="0" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="1" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="2" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="amp" level="group" position="3" parameter="ENV_SUSTAIN" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
-      <control x="168" y="166" width="48" height="24" parameterName="Release 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Envelope sustain level for 16' drawbar">
+      <control x="168" y="166" width="48" height="24" parameterName="Release 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Envelope release time for 16' drawbar">
         <binding type="amp" level="group" position="0" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="1" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
         <binding type="amp" level="group" position="2" parameter="ENV_RELEASE" translation="linear" translationOutputMin="0.07" translationOutputMax="4" />
