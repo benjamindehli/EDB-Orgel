@@ -1852,7 +1852,7 @@
       </button>
 
       <!-- Vibrato -->
-      <control x="0" y="0" width="0" height="0" parameterName="Velocity sensitivity 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" visible="false">
+      <control x="0" y="0" width="0" height="0" parameterName="Vibrato" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" visible="false">
         <binding type="modulator" level="instrument" position="9" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="8" />
         <binding type="modulator" level="instrument" position="9" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="0.2" />
       </control>
