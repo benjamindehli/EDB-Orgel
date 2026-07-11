@@ -259,14 +259,8 @@
       </control>
       <control x="168" y="214" width="48" height="24" parameterName="Tremolo speed 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo speed for 16' drawbar">
         <binding type="modulator" level="instrument" position="0" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="0" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="0" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="0" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
       <control x="168" y="238" width="48" height="24" parameterName="Tremolo depth 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo depth for 16' drawbar">
-        <binding type="modulator" level="instrument" position="0" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
-        <binding type="modulator" level="instrument" position="0" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
-        <binding type="modulator" level="instrument" position="0" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="0" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
       <control x="168" y="286" width="48" height="24" parameterName="Velocity sensitivity 16" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Velocity sensitivity for 16' drawbar">
@@ -303,14 +297,8 @@
       </control>
       <control x="240" y="214" width="48" height="24" parameterName="Tremolo speed 5 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo speed for 5 1/3' drawbar">
         <binding type="modulator" level="instrument" position="1" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="1" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="1" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="1" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
       <control x="240" y="238" width="48" height="24" parameterName="Tremolo depth 5 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo depth for 5 1/3' drawbar">
-        <binding type="modulator" level="instrument" position="1" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
-        <binding type="modulator" level="instrument" position="1" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
-        <binding type="modulator" level="instrument" position="1" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="1" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
       <control x="240" y="286" width="48" height="24" parameterName="Velocity sensitivity 5 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Velocity sensitivity for 5 1/3' drawbar">
@@ -347,14 +335,8 @@
       </control>
       <control x="312" y="214" width="48" height="24" parameterName="Tremolo speed 8" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo speed for 8' drawbar">
         <binding type="modulator" level="instrument" position="2" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="2" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="2" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="2" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
       <control x="312" y="238" width="48" height="24" parameterName="Tremolo depth 8" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo depth for 8' drawbar">
-        <binding type="modulator" level="instrument" position="2" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
-        <binding type="modulator" level="instrument" position="2" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
-        <binding type="modulator" level="instrument" position="2" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="2" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
       <control x="312" y="286" width="48" height="24" parameterName="Velocity sensitivity 8" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Velocity sensitivity for 8' drawbar">
@@ -391,14 +373,8 @@
       </control>
       <control x="384" y="214" width="48" height="24" parameterName="Tremolo speed 4" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo speed for 4' drawbar">
         <binding type="modulator" level="instrument" position="3" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="3" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="3" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="3" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
       <control x="384" y="238" width="48" height="24" parameterName="Tremolo depth 4" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo depth for 4' drawbar">
-        <binding type="modulator" level="instrument" position="3" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
-        <binding type="modulator" level="instrument" position="3" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
-        <binding type="modulator" level="instrument" position="3" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="3" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
       <control x="384" y="286" width="48" height="24" parameterName="Velocity sensitivity 4" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Velocity sensitivity for 4' drawbar">
@@ -435,14 +411,8 @@
       </control>
       <control x="456" y="214" width="48" height="24" parameterName="Tremolo speed 2 2/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo speed for 2 2/3' drawbar">
         <binding type="modulator" level="instrument" position="4" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="4" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="4" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="4" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
       <control x="456" y="238" width="48" height="24" parameterName="Tremolo depth 2 2/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo depth for 2 2/3' drawbar">
-        <binding type="modulator" level="instrument" position="4" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
-        <binding type="modulator" level="instrument" position="4" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
-        <binding type="modulator" level="instrument" position="4" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="4" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
       <control x="456" y="286" width="48" height="24" parameterName="Velocity sensitivity 2 2/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Velocity sensitivity for 2 2/3' drawbar">
@@ -479,14 +449,8 @@
       </control>
       <control x="528" y="214" width="48" height="24" parameterName="Tremolo speed 2" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo speed for 2' drawbar">
         <binding type="modulator" level="instrument" position="5" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="5" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="5" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="5" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
       <control x="528" y="238" width="48" height="24" parameterName="Tremolo depth 2" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo depth for 2' drawbar">
-        <binding type="modulator" level="instrument" position="5" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
-        <binding type="modulator" level="instrument" position="5" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
-        <binding type="modulator" level="instrument" position="5" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="5" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
       <control x="528" y="286" width="48" height="24" parameterName="Velocity sensitivity 2" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Velocity sensitivity for 2' drawbar">
@@ -523,14 +487,8 @@
       </control>
       <control x="600" y="214" width="48" height="24" parameterName="Tremolo speed 1 3/5" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo speed for 1 3/5' drawbar">
         <binding type="modulator" level="instrument" position="6" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="6" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="6" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="6" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
       <control x="600" y="238" width="48" height="24" parameterName="Tremolo depth 1 3/5" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo depth for 1 3/5' drawbar">
-        <binding type="modulator" level="instrument" position="6" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
-        <binding type="modulator" level="instrument" position="6" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
-        <binding type="modulator" level="instrument" position="6" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="6" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
       <control x="600" y="286" width="48" height="24" parameterName="Velocity sensitivity 1 3/5" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Velocity sensitivity for 1 3/5' drawbar">
@@ -567,14 +525,8 @@
       </control>
       <control x="672" y="214" width="48" height="24" parameterName="Tremolo speed 1 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo speed for 1 1/3' drawbar">
         <binding type="modulator" level="instrument" position="7" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="7" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="7" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="7" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
       <control x="672" y="238" width="48" height="24" parameterName="Tremolo depth 1 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo depth for 1 1/3' drawbar">
-        <binding type="modulator" level="instrument" position="7" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
-        <binding type="modulator" level="instrument" position="7" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
-        <binding type="modulator" level="instrument" position="7" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="7" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
       <control x="672" y="286" width="48" height="24" parameterName="Velocity sensitivity 1 1/3" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Velocity sensitivity for 1 1/3' drawbar">
@@ -611,14 +563,8 @@
       </control>
       <control x="744" y="214" width="48" height="24" parameterName="Tremolo speed 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="40" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo speed for 1' drawbar">
         <binding type="modulator" level="instrument" position="8" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="8" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="8" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
-        <binding type="modulator" level="instrument" position="8" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
       <control x="744" y="238" width="48" height="24" parameterName="Tremolo depth 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Tremolo depth for 1' drawbar">
-        <binding type="modulator" level="instrument" position="8" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
-        <binding type="modulator" level="instrument" position="8" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
-        <binding type="modulator" level="instrument" position="8" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
         <binding type="modulator" level="instrument" position="8" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
       <control x="744" y="286" width="48" height="24" parameterName="Velocity sensitivity 1" type="float" minValue="0" maxValue="99" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/numbers.png" customSkinNumFrames="100" customSkinImageOrientation="vertical" mouseDragSensitivity="170" visible="false" tooltip="Velocity sensitivity for 1' drawbar">
