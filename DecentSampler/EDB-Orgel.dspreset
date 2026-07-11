@@ -912,15 +912,15 @@
       <menu x="336" y="166" width="288" height="48">
         <option name="INIT PATCH">
           <binding type="control" level="ui" controlIndex="2"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Output                     |   0-1   |                                          -->
-          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 16 Drawbar                 | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 5 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 8 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 4 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 2 2/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 2 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 3/5 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 Drawbar                  | 127-0   |                                          -->
+          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Drawbar                 |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 5 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 8 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 4 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 2 2/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 2 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 3/5 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 Drawbar                  |   0-127 |                                          -->
           <binding type="control" level="ui" controlIndex="12" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Attack                  |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="13" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- 16 Decay                   |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="14" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- 16 Sustain                 |   0-99  |                                          -->
@@ -999,15 +999,15 @@
         </option>
         <option name="SOFT FM PIANO PAD">
           <binding type="control" level="ui" controlIndex="2"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Output                     |   0-1   |                                          -->
-          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 16 Drawbar                 | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 5 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 8 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="120" /> <!-- 4 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 2 2/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="125" /> <!-- 2 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 3/5 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 Drawbar                  | 127-0   |                                          -->
+          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Drawbar                 |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 5 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 8 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="7" />   <!-- 4 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 2 2/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="2" />   <!-- 2 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 3/5 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 Drawbar                  |   0-127 |                                          -->
           <binding type="control" level="ui" controlIndex="12" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Attack                  |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="13" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- 16 Decay                   |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="14" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- 16 Sustain                 |   0-99  |                                          -->
@@ -1086,15 +1086,15 @@
         </option>
         <option name="SOFT FM PIANO PAD 2">
           <binding type="control" level="ui" controlIndex="2"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Output                     |   0-1   |                                          -->
-          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="62" />  <!-- 16 Drawbar                 | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 5 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 8 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="85" />  <!-- 4 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="115" /> <!-- 2 2/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="122" /> <!-- 2 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 3/5 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="124" /> <!-- 1 Drawbar                  | 127-0   |                                          -->
+          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="65" />  <!-- 16 Drawbar                 |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 5 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 8 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="42" />  <!-- 4 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="12" />  <!-- 2 2/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="5" />   <!-- 2 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 3/5 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="3" />   <!-- 1 Drawbar                  |   0-127 |                                          -->
           <binding type="control" level="ui" controlIndex="12" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Attack                  |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="13" parameter="VALUE" translation="fixed_value" translationValue="1" />   <!-- 16 Decay                   |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="14" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Sustain                 |   0-99  |                                          -->
@@ -1173,15 +1173,15 @@
         </option>
         <option name="KOTO">
           <binding type="control" level="ui" controlIndex="2"  parameter="VALUE" translation="fixed_value" translationValue="1" />   <!-- Output                     |   0-1   | [Direct, Speaker]                        -->
-          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="76" />  <!-- 16 Drawbar                 | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="69" />  <!-- 5 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="97" />  <!-- 8 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 4 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="106" /> <!-- 2 2/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="6" />   <!-- 2 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="12" />  <!-- 1 3/5 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="3" />   <!-- 1 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 Drawbar                  | 127-0   |                                          -->
+          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="51" />  <!-- 16 Drawbar                 |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="58" />  <!-- 5 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="30" />  <!-- 8 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 4 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="21" />  <!-- 2 2/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="121" /> <!-- 2 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="115" /> <!-- 1 3/5 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="124" /> <!-- 1 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 Drawbar                  |   0-127 |                                          -->
           <binding type="control" level="ui" controlIndex="12" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Attack                  |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="13" parameter="VALUE" translation="fixed_value" translationValue="0.2" /> <!-- 16 Decay                   |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="14" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Sustain                 |   0-99  |                                          -->
@@ -1260,15 +1260,15 @@
         </option>
         <option name="INTERNAL SPEAKER">
           <binding type="control" level="ui" controlIndex="2"  parameter="VALUE" translation="fixed_value" translationValue="1" />   <!-- Output                     |   0-1   |                                          -->
-          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 16 Drawbar                 | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 5 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 8 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 4 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 2 2/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 2 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 3/5 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 Drawbar                  | 127-0   |                                          -->
+          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Drawbar                 |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 5 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 8 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 4 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 2 2/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 2 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 3/5 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 Drawbar                  |   0-127 |                                          -->
           <binding type="control" level="ui" controlIndex="12" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Attack                  |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="13" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- 16 Decay                   |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="14" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- 16 Sustain                 |   0-99  |                                          -->
@@ -1347,15 +1347,15 @@
         </option>
         <option name="COSMIC">
           <binding type="control" level="ui" controlIndex="2"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Output                     |   0-1   |                                          -->
-          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Drawbar                 | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="72" />  <!-- 5 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="41" />  <!-- 8 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="84" />  <!-- 4 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="94" />  <!-- 2 2/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="83" />  <!-- 2 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="103" /> <!-- 1 3/5 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="101" /> <!-- 1 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="40" />  <!-- 1 Drawbar                  | 127-0   |                                          -->
+          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 16 Drawbar                 |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="55" />  <!-- 5 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="86" />  <!-- 8 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="43" />  <!-- 4 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="33" />  <!-- 2 2/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="44" />  <!-- 2 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="24" />  <!-- 1 3/5 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="26" />  <!-- 1 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="87" />  <!-- 1 Drawbar                  |   0-127 |                                          -->
           <binding type="control" level="ui" controlIndex="12" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Attack                  |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="13" parameter="VALUE" translation="fixed_value" translationValue="43" />  <!-- 16 Decay                   |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="14" parameter="VALUE" translation="fixed_value" translationValue="80" />  <!-- 16 Sustain                 |   0-99  |                                          -->
@@ -1434,15 +1434,15 @@
         </option>
         <option name="DIGI PIANO">
           <binding type="control" level="ui" controlIndex="2"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Output                     |   0-1   |                                          -->
-          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Drawbar                 | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="104" /> <!-- 5 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="72" />  <!-- 8 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="105" /> <!-- 4 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="118" /> <!-- 2 2/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="121" /> <!-- 2 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="119" /> <!-- 1 3/5 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="118" /> <!-- 1 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="123" /> <!-- 1 Drawbar                  | 127-0   |                                          -->
+          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 16 Drawbar                 |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="23" />  <!-- 5 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="55" />  <!-- 8 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="22" />  <!-- 4 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="9" />   <!-- 2 2/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="6" />   <!-- 2 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="8" />   <!-- 1 3/5 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="9" />   <!-- 1 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="4" />   <!-- 1 Drawbar                  |   0-127 |                                          -->
           <binding type="control" level="ui" controlIndex="12" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Attack                  |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="13" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- 16 Decay                   |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="14" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Sustain                 |   0-99  |                                          -->
@@ -1521,15 +1521,15 @@
         </option>
         <option name="MALLETS PAD">
           <binding type="control" level="ui" controlIndex="2"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Output                     |   0-1   |                                          -->
-          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="88" />  <!-- 16 Drawbar                 | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="94" />  <!-- 5 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 8 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="84" />  <!-- 4 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="95" />  <!-- 2 2/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="56" />  <!-- 2 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="81" />  <!-- 1 3/5 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="32" />  <!-- 1 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="116" /> <!-- 1 Drawbar                  | 127-0   |                                          -->
+          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="39" />  <!-- 16 Drawbar                 |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="33" />  <!-- 5 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 8 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="43" />  <!-- 4 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="32" />  <!-- 2 2/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="71" />  <!-- 2 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="46" />  <!-- 1 3/5 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="95" />  <!-- 1 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="11" />  <!-- 1 Drawbar                  |   0-127 |                                          -->
           <binding type="control" level="ui" controlIndex="12" parameter="VALUE" translation="fixed_value" translationValue="16" />  <!-- 16 Attack                  |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="13" parameter="VALUE" translation="fixed_value" translationValue="14" />  <!-- 16 Decay                   |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="14" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- 16 Sustain                 |   0-99  |                                          -->
@@ -1608,15 +1608,15 @@
         </option>
         <option name="LA SUNRISE">
           <binding type="control" level="ui" controlIndex="2"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Output                     |   0-1   |                                          -->
-          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Drawbar                 | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 5 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 8 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 4 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 2 2/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 2 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 3/5 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 Drawbar                  | 127-0   |                                          -->
+          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 16 Drawbar                 |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 5 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 8 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 4 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 2 2/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 2 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 3/5 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 Drawbar                  |   0-127 |                                          -->
           <binding type="control" level="ui" controlIndex="12" parameter="VALUE" translation="fixed_value" translationValue="9" />   <!-- 16 Attack                  |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="13" parameter="VALUE" translation="fixed_value" translationValue="40" />  <!-- 16 Decay                   |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="14" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- 16 Sustain                 |   0-99  |                                          -->
@@ -1695,15 +1695,15 @@
         </option>
         <option name="LA SUNSET">
           <binding type="control" level="ui" controlIndex="2"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- Output                     |   0-1   |                                          -->
-          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 16 Drawbar                 | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 5 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 8 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 4 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 2 2/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 2 Drawbar                  | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 3/5 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 1/3 Drawbar              | 127-0   |                                          -->
-          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="0" />   <!-- 1 Drawbar                  | 127-0   |                                          -->
+          <binding type="control" level="ui" controlIndex="3"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 16 Drawbar                 |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="4"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 5 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="5"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 8 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="6"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 4 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="7"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 2 2/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="8"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 2 Drawbar                  |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="9"  parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 3/5 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="10" parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 1/3 Drawbar              |   0-127 |                                          -->
+          <binding type="control" level="ui" controlIndex="11" parameter="VALUE" translation="fixed_value" translationValue="127" /> <!-- 1 Drawbar                  |   0-127 |                                          -->
           <binding type="control" level="ui" controlIndex="12" parameter="VALUE" translation="fixed_value" translationValue="6" />   <!-- 16 Attack                  |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="13" parameter="VALUE" translation="fixed_value" translationValue="89" />  <!-- 16 Decay                   |   0-99  |                                          -->
           <binding type="control" level="ui" controlIndex="14" parameter="VALUE" translation="fixed_value" translationValue="99" />  <!-- 16 Sustain                 |   0-99  |                                          -->
