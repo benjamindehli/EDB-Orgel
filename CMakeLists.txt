@@ -8,5 +8,5 @@
 dmse_add_plugin(EdbOrgel
     PRODUCT_NAME "EDB-Orgel"
     PLUGIN_CODE  Edbo
-    VERSION      1.0.0
+    VERSION      2.0.0
 )
