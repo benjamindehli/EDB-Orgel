@@ -1,24 +1,40 @@
-# EDB-Orgel - Version [1.0]
+# EDB-Orgel
 
-Date: 2024-08-08
-
-Name: Benjamin Dehli
-
-Profile: [store.dehlimusikk.no][Gumroad profile]
-
-## Included formats
-
-- Decent Sampler
+EDB-Orgel delivers the sound of four different digital synthesis types with the workflow of a drawbar organ combined with an analog synthesizer.
 
 ## Release notes
 
-### Version 1.0 (2024-08-08)
+### Version 2.0.0 (upcoming)
+
+- Added a plugin version. See the section "The plugin version".
+- Corrected the UI values and the polarity for the drawbars.
+- Fixed the mislabeled 5 1/3' drawbar control name.
+- Fixed the swapped envelope tooltips on the 16' drawbar.
+- Renamed the hidden vibrato control, which was mislabeled "Velocity sensitivity 1".
+- Removed duplicated tremolo modulator bindings.
+- Removed a dead gain binding in the filter OFF state.
+
+### Version 1.0.0 (2024-08-08)
 
 - First version released
 
-## Description
+## Included formats
 
-EDB-Orgel delivers the sound of four different digital synthesis types with the workflow of a drawbar organ combined with an analog synthesizer.
+- VST3 (macOS, Windows and Linux)
+- AU (macOS)
+- Standalone application (macOS, Windows and Linux)
+- Decent Sampler
+
+## The plugin version
+
+The plugin is a self-contained instrument for macOS, Windows and Linux, available as VST3, AU and Standalone.
+Samples, graphics and impulse responses are all embedded in the plugin itself, losslessly compressed, so there are no external files to install or locate.
+
+The plugin has all the controls and features from the Decent Sampler version, including MIDI learn, the master volume fader with output meter, value readouts for the knobs and full DAW automation.
+On top of that, the plugin version adds:
+
+- Drift wheels next to the pitch and modulation wheels, adding a subtle random pitch and volume drift to each voice.
+- A velocity curve setting in the settings menu.
 
 ## Technical specification
 
@@ -152,6 +168,13 @@ EDB-Orgel features the different filter types you get from the SID chip. These a
 |        [Casio CZ-101][Casio CZ-101]        |        ![Casio CZ-101](/Equipment/casio-cz-101.jpg)        |
 |          [Yamaha DX7][Yamaha DX7]          |          ![Yamaha DX7](/Equipment/yamaha-dx7.jpg)          |
 |         [Roland D-50][Roland D-50]         |         ![Roland D-50](/Equipment/roland-d-50.jpg)         |
+
+## About this repository
+
+This repository contains the source for both the Decent Sampler library (the DecentSampler folder) and the plugin version.
+The plugin is a thin wrapper around the shared Dehli Musikk sampler engine, and a converter translates the Decent Sampler library into the engine's native preset format at build time.
+The audio files are not part of this repository, since the samples are a paid product.
+The full version is available from [store.dehlimusikk.no][Gumroad profile].
 
 [Gumroad profile]: https://store.dehlimusikk.no/
 [Elektron SidStation]: https://www.dehlimusikk.no/equipment/instruments/elektron-sidstation/
