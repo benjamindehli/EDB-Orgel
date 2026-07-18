@@ -4,7 +4,7 @@ EDB-Orgel delivers the sound of four different digital synthesis types with the 
 
 ## Release notes
 
-### Version 2.0.0 (2026-07-18)
+### Version 2.0.0 (2026-07-19)
 
 - Added a plugin version. See the section "The plugin version".
 - Corrected the UI values and the polarity for the drawbars.
