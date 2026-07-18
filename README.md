@@ -4,7 +4,7 @@ EDB-Orgel delivers the sound of four different digital synthesis types with the 
 
 ## Release notes
 
-### Version 2.0.0 (upcoming)
+### Version 2.0.0 (2026-07-18)
 
 - Added a plugin version. See the section "The plugin version".
 - Corrected the UI values and the polarity for the drawbars.
@@ -20,14 +20,18 @@ EDB-Orgel delivers the sound of four different digital synthesis types with the 
 
 ## Included formats
 
-- VST3 (macOS, Windows and Linux)
+- VST3 (macOS)
 - AU (macOS)
-- Standalone application (macOS, Windows and Linux)
-- Decent Sampler
+- Standalone application (macOS)
+- Decent Sampler (macOS, Windows and Linux)
+
+The plugin version is currently released for macOS only.
+Windows and Linux versions are planned.
+Until then, the Decent Sampler version covers those platforms.
 
 ## The plugin version
 
-The plugin is a self-contained instrument for macOS, Windows and Linux, available as VST3, AU and Standalone.
+The plugin is a self-contained instrument, available as VST3, AU and Standalone.
 Samples, graphics and impulse responses are all embedded in the plugin itself, losslessly compressed, so there are no external files to install or locate.
 
 The plugin has all the controls and features from the Decent Sampler version, including MIDI learn, the master volume fader with output meter, value readouts for the knobs and full DAW automation.
