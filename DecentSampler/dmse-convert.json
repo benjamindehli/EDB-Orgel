@@ -3,6 +3,10 @@
     "normalizeIr": false,
     "reverbGain": -11,
     "cropTop": { "default": 28 },
+    "overlay": {
+        "default": "Resources/overlay_default.png"
+    },
+    "overlayScope": "instrument",
     "keyboardColors": {
         "EDB-Orgel": [{ "loNote": 12, "hiNote": 96, "color": "none" }]
     }

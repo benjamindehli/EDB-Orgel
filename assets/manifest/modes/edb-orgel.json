@@ -51364,6 +51364,8 @@
   ],
   "ui": {
     "background": "img:background",
+    "overlay": "img:overlay_default",
+    "overlayScope": "instrument",
     "width": 960,
     "height": 600,
     "cropTop": 28,
