@@ -51369,6 +51369,10 @@
     "width": 960,
     "height": 600,
     "cropTop": 28,
+    "menuPopupBackground": "FF1C1C1C",
+    "menuPopupText": "FFEEEEEE",
+    "menuPopupHighlight": "FF48429A",
+    "menuPopupHighlightText": "FFEEEEEE",
     "tabs": [
       {
         "name": "main",
