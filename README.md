@@ -1,5 +1,7 @@
 # EDB-Orgel
 
+**[Product page and documentation](https://benjamindehli.github.io/EDB-Orgel/)**
+
 EDB-Orgel delivers the sound of four different digital synthesis types with the workflow of a drawbar organ combined with an analog synthesizer.
 
 ## Release notes
