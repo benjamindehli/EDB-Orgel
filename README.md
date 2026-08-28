@@ -66,8 +66,7 @@ This version of EDB-Orgel is an instrument preset / sample library for Decent Sa
 
 ## User Interface
 
-The user interface offers precise control over every aspect of the instrument and effects.
-Explore parameters to refine your sound, including volume control and sound source selection for the nine drawbars, ADSR envelope, amplitude modulation (tremolo) with LFOs, velocity sensitivity, different filter types, speaker simulation, stereo widener and vibrato controlled by the modulation wheel.
+Each of the nine drawbars has its own volume and sound source. Around them sit the ADSR envelope, amplitude modulation (tremolo) with LFOs, velocity sensitivity, the filter types, speaker simulation, a stereo widener, and vibrato on the modulation wheel.
 
 ### Tabs
 
@@ -89,7 +88,7 @@ The button with a floppy disk icon, opens a dialog window for loading predefined
 |:--:|
 |Drawbar controls in the mixer tab|
 
-Unleash the power of the nine drawbars to shape your organ's tone with precision. Each drawbar controls the amplitude of a specific harmonic overtone, offering you unparalleled control over the instrument's harmonic richness.
+Each of the nine drawbars sets the level of one harmonic overtone, and each drawbar can be given its own sound source.
 
 ### Sound source
 
@@ -111,8 +110,6 @@ Unleash the power of the nine drawbars to shape your organ's tone with precision
 |![Envelope controls in the modulation tab](/Screenshots/envelope.png)|
 |:--:|
 |Envelope controls in the modulation tab|
-
-Shape your sound precisely with the Attack, Decay, Sustain, and Release parameters. Whether you desire a punchy, staccato tone or a smooth, lingering ambiance, the ADSR envelope allows you to tailor the dynamics to your liking.
 
 - ATT (attack)
   - Individual attack time of the amplitude envelope for each drawbar
