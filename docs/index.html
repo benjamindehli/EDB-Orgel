@@ -33,22 +33,37 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "WebSite",
+      "@id": "https://benjamindehli.github.io/EDB-Orgel/#website",
+      "name": "EDB-Orgel",
+      "url": "https://benjamindehli.github.io/EDB-Orgel/",
+      "description": "Product page and documentation for EDB-Orgel, a sample instrument by Dehli Musikk.",
+      "inLanguage": "en",
+      "author": {
+        "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f"
+      },
+      "publisher": {
+        "@id": "https://www.dehlimusikk.no/"
+      },
+      "license": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "about": {
+        "@id": "https://www.dehlimusikk.no/products/edb-orgel/#product"
+      },
+      "sameAs": "https://github.com/benjamindehli/EDB-Orgel"
+    },
+    {
       "@type": "SoftwareApplication",
-      "@id": "https://store.dehlimusikk.no/l/edb-orgel",
+      "@id": "https://www.dehlimusikk.no/products/edb-orgel/#product",
       "name": "EDB-Orgel",
       "description": "EDB-Orgel delivers the sound of four different digital synthesis types with the workflow of a drawbar organ combined with an analog synthesizer.",
       "url": "https://benjamindehli.github.io/EDB-Orgel/",
       "applicationCategory": "MultimediaApplication",
       "applicationSubCategory": "Sample library / virtual instrument",
       "author": {
-        "@type": "Organization",
-        "name": "Dehli Musikk",
-        "url": "https://www.dehlimusikk.no/"
+        "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f"
       },
       "publisher": {
-        "@type": "Organization",
-        "name": "Dehli Musikk",
-        "url": "https://www.dehlimusikk.no/"
+        "@id": "https://www.dehlimusikk.no/"
       },
       "operatingSystem": "macOS, Windows, Linux",
       "softwareVersion": "2.1.0",
@@ -56,33 +71,22 @@
       "image": "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-edb-orgel-mixer.webp",
       "screenshot": [
         "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-edb-orgel-mixer.webp",
-        "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-edb-orgel-mixer.webp",
-        "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-edb-orgel-modulation.webp",
         "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-edb-orgel-modulation.webp",
         "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-edb-orgel-load-patch.webp",
-        "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-edb-orgel-load-patch.webp",
-        "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-load-patch.webp",
         "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-load-patch.webp",
         "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-mixer-modulation.webp",
-        "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-mixer-modulation.webp",
-        "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-drawbars.webp",
         "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-drawbars.webp",
         "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-sound-source.webp",
-        "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-sound-source.webp",
-        "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-envelope.webp",
         "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-envelope.webp",
         "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-tremolo.webp",
-        "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-tremolo.webp",
-        "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-velocity-sensitivity.webp",
         "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-velocity-sensitivity.webp",
         "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-filters.webp",
-        "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-filters.webp",
         "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-direct-speaker.webp",
-        "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-direct-speaker.webp",
-        "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-mono-stereo.webp",
         "https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-mono-stereo.webp"
       ],
       "sameAs": [
+        "https://www.dehlimusikk.no/products/edb-orgel/",
+        "https://www.dehlimusikk.no/en/products/edb-orgel/",
         "https://store.dehlimusikk.no/l/edb-orgel",
         "https://dehlimusikk.gumroad.com/l/edb-orgel",
         "https://www.cylex.no/bedrift-produkt/edb-orgel_223146.html",
@@ -102,6 +106,18 @@
           "description": "Pay what you want, from $9.99"
         }
       }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f",
+      "name": "Benjamin Dehli",
+      "url": "https://www.dehlimusikk.no/"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.dehlimusikk.no/",
+      "name": "Dehli Musikk",
+      "url": "https://www.dehlimusikk.no/"
     }
   ]
 }
