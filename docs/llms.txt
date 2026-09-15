@@ -1,0 +1,279 @@
+# EDB-Orgel
+
+> EDB-Orgel: four digital synthesis types with the workflow of a drawbar organ crossed with an analog synth. For VST3, AU and Decent Sampler.
+
+A sample instrument by Dehli Musikk. This is the markdown version of https://benjamindehli.github.io/EDB-Orgel/, generated from the repository README.
+
+## Key facts
+
+- Plugin: VST3, AU and Standalone for macOS
+- Decent Sampler: macOS, Windows and Linux
+- Version: 2.1.0 (2026-08-01)
+- Price: Pay what you want, from $9.99
+- Sample rate: 48 kHz
+- Bit depth: 24 bit
+- Samples: 532 files
+- Sample content: 974.8 MB
+
+## Links
+
+- [Product page](https://benjamindehli.github.io/EDB-Orgel/)
+- [EDB-Orgel at Dehli Musikk](https://www.dehlimusikk.no/en/products/edb-orgel/)
+- [Get it](https://store.dehlimusikk.no/l/edb-orgel)
+- [Source on GitHub](https://github.com/benjamindehli/EDB-Orgel)
+- [EDB-Orgel for Decent Sampler](https://benjamindehli.github.io/EDB-Orgel/video/)
+
+## Video chapters
+
+- [0:00 Soft FM Piano Pad](https://benjamindehli.github.io/EDB-Orgel/video/?t=0)
+- [0:32 Soft FM Piano Pad 2](https://benjamindehli.github.io/EDB-Orgel/video/?t=32)
+- [0:58 Koto](https://benjamindehli.github.io/EDB-Orgel/video/?t=58)
+- [1:13 Internal Speaker](https://benjamindehli.github.io/EDB-Orgel/video/?t=73)
+- [1:35 Cosmic](https://benjamindehli.github.io/EDB-Orgel/video/?t=95)
+- [1:53 Digi Piano](https://benjamindehli.github.io/EDB-Orgel/video/?t=113)
+- [2:18 Mallets Pad](https://benjamindehli.github.io/EDB-Orgel/video/?t=138)
+- [2:47 LA Sunrise](https://benjamindehli.github.io/EDB-Orgel/video/?t=167)
+- [3:15 LA Sunset ](https://benjamindehli.github.io/EDB-Orgel/video/?t=195)
+
+## Frequently asked questions
+
+### What is EDB-Orgel?
+
+EDB-Orgel: four digital synthesis types with the workflow of a drawbar organ crossed with an analog synth. For VST3, AU and Decent Sampler.
+
+### Which formats does EDB-Orgel come in?
+
+EDB-Orgel is available as VST3, AU and Standalone for macOS, and as a Decent Sampler library for macOS, Windows and Linux.
+
+### Does EDB-Orgel run on Windows or Linux?
+
+The plugin version is released for macOS only. On Windows and Linux, the Decent Sampler version of EDB-Orgel covers the same instrument.
+
+### Does EDB-Orgel work in Logic Pro and Ableton Live?
+
+Yes. EDB-Orgel is available as both VST3 and AU, so it loads in any macOS host that reads those formats, including Logic Pro, Ableton Live, Cubase, Reaper and Studio One.
+
+### Do I need Decent Sampler to use EDB-Orgel?
+
+Not for the plugin version. It is a self-contained instrument with its samples embedded, so there are no external files to install or locate. The Decent Sampler version is a sample library, and that one needs the free Decent Sampler application.
+
+### What sample rate and bit depth is EDB-Orgel recorded at?
+
+The samples are 48 kHz, 24 bit.
+
+### How many samples does EDB-Orgel contain?
+
+532 sample files, 974.8 MB of audio. Impulse responses for the effects are not counted in that figure.
+
+### How much does EDB-Orgel cost?
+
+EDB-Orgel is pay what you want, from $9.99, so the price shown is the minimum rather than a fixed one.
+
+### Where can I download EDB-Orgel?
+
+From the Dehli Musikk store at https://store.dehlimusikk.no/l/edb-orgel.
+
+### Is the source code for EDB-Orgel available?
+
+Yes. The repository is public at https://github.com/benjamindehli/EDB-Orgel and licensed under GPL-3.0. The audio files are not in the repository, because the samples are a paid product.
+
+---
+
+EDB-Orgel delivers the sound of four different digital synthesis types with the workflow of a drawbar organ combined with an analog synthesizer.
+
+## Release notes
+
+### Version 2.1.0 (2026-08-01)
+
+The changes in this release apply to the plugin version only. The DecentSampler version is unchanged.
+
+- Added a translucent overlay graphic on top of the interface.
+- Keys that are hovered or held on the keyboard are now shaded in a neutral way instead of turning yellow:
+  - White keys turn darker.
+  - Black keys turn brighter.
+- The computer keyboard keeps playing notes even while you adjust a control with the mouse.
+- The dropdown menus inside the interface now use colors that match the instrument.
+
+### Version 2.0.0 (2026-07-19)
+
+- Added a plugin version. See the section "The plugin version".
+- Corrected the UI values and the polarity for the drawbars.
+- Fixed the mislabeled 5 1/3' drawbar control name.
+- Fixed the swapped envelope tooltips on the 16' drawbar.
+- Renamed the hidden vibrato control, which was mislabeled "Velocity sensitivity 1".
+- Removed duplicated tremolo modulator bindings.
+- Removed a dead gain binding in the filter OFF state.
+
+### Version 1.0.0 (2024-08-08)
+
+- First version released
+
+## Included formats
+
+- VST3 (macOS)
+- AU (macOS)
+- Standalone application (macOS)
+- Decent Sampler (macOS, Windows and Linux)
+
+The plugin version is currently released for macOS only.
+Windows and Linux versions are planned.
+Until then, the Decent Sampler version covers those platforms.
+
+## The plugin version
+
+The plugin is a self-contained instrument, available as VST3, AU and Standalone.
+Samples, graphics and impulse responses are all embedded in the plugin itself, losslessly compressed, so there are no external files to install or locate.
+
+The plugin has all the controls and features from the Decent Sampler version, including MIDI learn, the master volume fader with output meter, value readouts for the knobs and full DAW automation.
+On top of that, the plugin version adds:
+
+- Drift wheels next to the pitch and modulation wheels, adding a subtle random pitch and volume drift to each voice.
+- A velocity curve setting in the settings menu.
+
+## The Decent Sampler version
+
+This version of EDB-Orgel is an instrument preset / sample library for Decent Sampler. If you're new to Decent Sampler, I recommend checking out [this guide][Decent Sampler guide] first.
+
+## Technical specification
+
+|                       | Sample rate | Bit depth | Channels   | Number of files | File size |
+|----------------------:|------------:|----------:|------------|----------------:|----------:|
+|           **Samples** |      48 kHz |    24 bit | 1 (mono)   |             532 | 974.80 MB |
+| **Impulse responses** |      48 kHz |    24 bit | 1 (mono)   |               8 |  85.00 KB |
+
+## User Interface
+
+Each of the nine drawbars has its own volume and sound source. Around them sit the ADSR envelope, amplitude modulation (tremolo) with LFOs, velocity sensitivity, the filter types, speaker simulation, a stereo widener, and vibrato on the modulation wheel.
+
+### Tabs
+
+|![Mixer tab](https://benjamindehli.github.io/EDB-Orgel/img/screenshots-edb-orgel-mixer.webp)|![Modulation tab](https://benjamindehli.github.io/EDB-Orgel/img/screenshots-edb-orgel-modulation.webp)|![Patch dialog](https://benjamindehli.github.io/EDB-Orgel/img/screenshots-edb-orgel-load-patch.webp)|
+|:--------------------------------------------:|:------------------------------------------------------:|:----------------------------------------------------:|
+|                  Mixer tab                   |                     Modulation tab                     |                     Patch dialog                     |
+
+To accommodate all the controls, they are organized into two separate tabs and a dialog window.
+
+|![Open patch dialog](https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-load-patch.webp)|![Toggle between mixer and modulation tab](https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-mixer-modulation.webp)|
+|:------------------------------------------------------:|:----------------------------------------------------------------------------------:|
+|                    Open patch dialog                   |                       Toggle between mixer and modulation tab                      |
+
+The button with a floppy disk icon, opens a dialog window for loading predefined patches. The MIX/MOD button allows you to toggle between a mixer view with drawbars, and a modulation view with various modulation controls for further sound customization.
+
+### Drawbars
+
+|![Drawbar controls in the mixer tab](https://benjamindehli.github.io/EDB-Orgel/img/screenshots-drawbars.webp)|
+|:--:|
+|Drawbar controls in the mixer tab|
+
+Each of the nine drawbars sets the level of one harmonic overtone, and each drawbar can be given its own sound source.
+
+### Sound source
+
+|![Sound sorce buttons in the mixer tab](https://benjamindehli.github.io/EDB-Orgel/img/screenshots-sound-source.webp)|
+|:--:|
+|Sound source buttons in the mixer tab|
+
+- 64 (Commodore 64)
+  - The MOS Technology 6581 Sound Interface Device (SID) was used in devices such as the Commodore 64 and Elektron SidStation.
+- PD (Phase Distortion)
+  - Phase distortion synthesis is a technique that was used in Casio synthesizers from the CZ range, such as the Casio CZ-1 and the Casio CZ-101.
+- FM (Frequency Modulation)
+  - Frequency modulation synthesis is a widely used technique in various devices including AdLib and Sound Blaster sound cards, Sega Genesis (Mega Drive) video game consoles, and synthesizers like the New England Digital Synclavier and the Yamaha DX-7.
+- LA (Linear Arithmetic)
+  - Linear arithmetic synthesis is a method used in synthesizers such as the Roland MT-32 sound module and the Roland D-50 synthesizer.
+
+### ADSR Envelope
+
+|![Envelope controls in the modulation tab](https://benjamindehli.github.io/EDB-Orgel/img/screenshots-envelope.webp)|
+|:--:|
+|Envelope controls in the modulation tab|
+
+- ATT (attack)
+  - Individual attack time of the amplitude envelope for each drawbar
+- DEC (decay)
+  - Individual decay time of the amplitude envelope for each drawbar
+- SUS (sustain)
+  - Individual sustain level of the amplitude envelope for each drawbar
+- REL (release)
+  - Individual release time of the amplitude envelope for each drawbar
+
+### Tremolo
+
+|![Tremolo controls in the modulation tab](https://benjamindehli.github.io/EDB-Orgel/img/screenshots-tremolo.webp)|
+|:--:|
+|Tremolo controls in the modulation tab|
+
+The speed (SPD) and depth (DPT) controls enable you to modulate the amplitude of the drawbars with the desired speed and depth using the Low-Frequency Oscillator (LFO).
+
+- SPD (speed)
+  - Tremolo speed determines the speed at which the modulation occurs
+- DPT (depth)
+  - Adjust tremolo depth to introduce subtle or pronounced variations in volume
+
+### Velocity sensitivity
+
+|![Controls for the velocity sensitivity in the modulation tab](https://benjamindehli.github.io/EDB-Orgel/img/screenshots-velocity-sensitivity.webp)|
+|:--:|
+|Controls for the velocity sensitivity in the modulation tab|
+
+- VEL (velocity sensitivity): Determines whether the velocity should affect the volume of the drawbar
+
+### Filters
+
+|![Filter select buttons](https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-filters.webp)|
+|:--:|
+|Filter select buttons|
+
+EDB-Orgel features the different filter types you get from the SID chip. These are impulse responses (IR) of the filters in the MOS Technology 6581 chip. Cutoff frequency and resonance amount for each filter is set to a fixed value.
+
+- OFF: Filter is disabled
+- LPF: Low Pass Filter
+- BPF: Band Pass Filter
+- L/B: Low Pass Filter and Band Pass Filter
+- HPF: High Pass Filter
+- L/H: Low Pass Filter and High Pass Filter
+- B/H: Band Pass Filter and High Pass Filter
+- ALL: Low Pass Filter, Band Pass Filter and High Pass Filter
+
+### Output
+
+|![Buttons for the output settings](https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-direct-speaker.webp)|
+|:--:|
+|Buttons for the output settings|
+
+- DIR (Direct)
+  - The direct sound of the line output
+- SPK (Speaker)
+  - The sound of a tiny computer speaker miced with a Shure SM57
+
+### Mono/Stereo
+
+|![Buttons for toggling between mono and stereo](https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-mono-stereo.webp)|
+|:--:|
+|Buttons for toggling between mono and stereo|
+
+- 1 speaker (mono): Stereo effect is disabled
+- 2 speakers (stereo): Stereo effect is enabled
+
+## Equipment used
+
+|                    Name                    |                            Image                           |
+| :----------------------------------------: | :--------------------------------------------------------: |
+| [Elektron SidStation][Elektron SidStation] | ![Elektron SidStation](https://benjamindehli.github.io/EDB-Orgel/img/equipment-elektron-sidstation.webp) |
+|        [Casio CZ-101][Casio CZ-101]        |        ![Casio CZ-101](https://benjamindehli.github.io/EDB-Orgel/img/equipment-casio-cz-101.webp)        |
+|          [Yamaha DX7][Yamaha DX7]          |          ![Yamaha DX7](https://benjamindehli.github.io/EDB-Orgel/img/equipment-yamaha-dx7.webp)          |
+|         [Roland D-50][Roland D-50]         |         ![Roland D-50](https://benjamindehli.github.io/EDB-Orgel/img/equipment-roland-d-50.webp)         |
+
+## About this repository
+
+This repository contains the source for both the Decent Sampler library (the DecentSampler folder) and the plugin version.
+The plugin is a thin wrapper around the shared Dehli Musikk sampler engine, and a converter translates the Decent Sampler library into the engine's native preset format at build time.
+The audio files are not part of this repository, since the samples are a paid product.
+The full version is available from [store.dehlimusikk.no][Gumroad profile].
+
+[Gumroad profile]: https://store.dehlimusikk.no/
+[Decent Sampler guide]: https://www.decentsamples.com/how-to-use-decent-sampler/
+[Elektron SidStation]: https://www.dehlimusikk.no/equipment/instruments/elektron-sidstation/
+[Casio CZ-101]: https://www.dehlimusikk.no/equipment/instruments/casio-cz-101/
+[Yamaha DX7]: https://www.dehlimusikk.no/equipment/instruments/yamaha-dx7/
+[Roland D-50]: https://www.dehlimusikk.no/equipment/instruments/roland-d-50/
