@@ -1,9 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://benjamindehli.github.io/EDB-Orgel/</loc>
     <lastmod>2026-09-17</lastmod>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/EDB-Orgel/img/screenshots-edb-orgel-mixer.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/EDB-Orgel/img/screenshots-edb-orgel-modulation.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/EDB-Orgel/img/screenshots-edb-orgel-load-patch.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-load-patch.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-mixer-modulation.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/EDB-Orgel/img/screenshots-drawbars.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/EDB-Orgel/img/screenshots-sound-source.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/EDB-Orgel/img/screenshots-envelope.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/EDB-Orgel/img/screenshots-tremolo.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/EDB-Orgel/img/screenshots-velocity-sensitivity.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-filters.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-direct-speaker.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/EDB-Orgel/img/screenshots-button-mono-stereo.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/EDB-Orgel/img/equipment-elektron-sidstation.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/EDB-Orgel/img/equipment-casio-cz-101.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/EDB-Orgel/img/equipment-yamaha-dx7.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://benjamindehli.github.io/EDB-Orgel/img/equipment-roland-d-50.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://benjamindehli.github.io/EDB-Orgel/video/</loc>
