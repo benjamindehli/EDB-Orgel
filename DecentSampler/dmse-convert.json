@@ -7,6 +7,24 @@
         "default": "Resources/overlay_default.png"
     },
     "overlayScope": "instrument",
+    "labels": {
+        "btn_0": "Mixer or modulation tab",
+        "btn_1": "Output",
+        "btn_2": "Sound source 16",
+        "btn_3": "Sound source 5 1/3",
+        "btn_4": "Sound source 8",
+        "btn_5": "Sound source 4",
+        "btn_6": "Sound source 2 2/3",
+        "btn_7": "Sound source 2",
+        "btn_8": "Sound source 1 3/5",
+        "btn_9": "Sound source 1 1/3",
+        "btn_10": "Sound source 1",
+        "btn_11": "Filter",
+        "btn_12": "Mono or stereo",
+        "btn_13": "Patches",
+        "btn_14": "Close patches",
+        "menu_0": "Patch"
+    },
     "menuPopupColors": {
         "background": "FF1C1C1C",
         "text": "FFEEEEEE",
