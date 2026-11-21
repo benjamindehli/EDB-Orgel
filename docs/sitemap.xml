@@ -4,7 +4,7 @@
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://benjamindehli.github.io/EDB-Orgel/</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <image:image>
       <image:loc>https://benjamindehli.github.io/EDB-Orgel/img/screenshots-edb-orgel-mixer.webp</image:loc>
     </image:image>
@@ -59,7 +59,7 @@
   </url>
   <url>
     <loc>https://benjamindehli.github.io/EDB-Orgel/video/</loc>
-    <lastmod>2026-09-17</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <video:video>
       <video:thumbnail_loc>https://i.ytimg.com/vi/hZNESXfthg0/hqdefault.jpg</video:thumbnail_loc>
       <video:title>EDB-Orgel for Decent Sampler</video:title>
