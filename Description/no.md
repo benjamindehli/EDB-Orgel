@@ -4,7 +4,7 @@ Rundt drawbarene finner du en ADSR-envelope for hver drawbar, tremolo med hastig
 
 Kontrollene er fordelt på en mikserfane og en modulasjonsfane, med en dialog for å laste inn de medfølgende patchene.
 
-532 sampler og 8 impulsresponser for filtrene i 48 kHz / 24 bit, bygd inn i pluginen som tapsfri FLAC.
+532 sampler og 8 impulsresponser for filtrene i 48 kHz / 24 bit, lagret som tapsfri FLAC i én samplefil som installasjonsprogrammet legger på plass.
 
 ## Funksjoner
 
@@ -15,4 +15,4 @@ Kontrollene er fordelt på en mikserfane og en modulasjonsfane, med en dialog fo
 - Åtte filterinnstillinger hentet fra impulsresponser av det ekte 6581-filteret: LPF, BPF, HPF og alle kombinasjoner.
 - Direkte linjeutgang eller en mikket datamaskinhøyttaler, i mono eller stereo.
 - Mikserfane, modulasjonsfane og en dialog for patcher.
-- 532 sampler i 48 kHz / 24 bit, bygd inn tapsfritt (975 MB kildebibliotek).
+- 532 sampler i 48 kHz / 24 bit, lagret tapsfritt (975 MB kildebibliotek).

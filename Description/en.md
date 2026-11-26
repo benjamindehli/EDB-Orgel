@@ -4,7 +4,7 @@ Around the drawbars sit a per-drawbar ADSR envelope, tremolo with speed and dept
 
 The controls are split across a mixer tab and a modulation tab, with a dialog for loading the supplied patches.
 
-532 samples and 8 filter impulse responses at 48 kHz / 24-bit, embedded in the plugin as lossless FLAC.
+532 samples and 8 filter impulse responses at 48 kHz / 24-bit, stored as lossless FLAC in one sample file that the installer puts in place.
 
 ## Features
 
@@ -15,4 +15,4 @@ The controls are split across a mixer tab and a modulation tab, with a dialog fo
 - Eight filter settings taken from impulse responses of the real 6581 filter: LPF, BPF, HPF and every combination.
 - Direct line output or a miked computer speaker, in mono or stereo.
 - Mixer tab, modulation tab and a patch dialog.
-- 532 samples at 48 kHz / 24-bit, embedded losslessly (975 MB source library).
+- 532 samples at 48 kHz / 24-bit, stored losslessly (975 MB source library).
